@@ -80,6 +80,78 @@
 		
 		<!-- #########################################-->
 		<!-- ***** START OF: 'Main Menu > Edit' ***** -->
+		
+		<!-- #########################################-->
+		<!-- ***** START OF: 'Main Menu > Edit > Find' ***** -->
+		
+		<!-- TODO Search everywhere -->
+		
+		
+		<!-- 'Find...' -->		
+		<key
+			sequence="M1+F"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.ui.edit.findReplace">
+		</key>
+		<key
+			sequence="Alt+F3"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.ui.edit.findReplace">
+		</key>
+		
+		<!-- 'Replace' -->		
+		<key
+			sequence="M1+R"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.ui.edit.findReplace">
+		</key>
+		
+		
+		<!-- 'Find Next' -->		
+		<key
+			sequence="F3"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.ui.edit.findNext">
+		</key>
+		<key
+			sequence="Ctrl+L"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.ui.edit.findNext">
+		</key>
+		
+		<!-- 'Find Previous' -->		
+		<key
+			sequence="Shift+F3"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.ui.edit.findPrevious">
+		</key>
+		<key
+			sequence="Ctrl+Shift+L"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.ui.edit.findPrevious">
+		</key>
+		
+		<!-- 'Find in path' -->		
+		<!-- 'Replace in path' -->		
+		<key
+			sequence="Ctrl+Shift+F"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.search.ui.openFileSearchPage">
+		</key>
+		
+		<!-- TODO multiple cursors required? Select next occurrence, Select all occurrences, Unselect occurrence -->
+		
+		<!-- ##### END OF: 'Main Menu > Edit > Find' ##### -->
+		
+		
 		<!-- ##### END OF: 'Main Menu > Edit' ##### -->
 
 
