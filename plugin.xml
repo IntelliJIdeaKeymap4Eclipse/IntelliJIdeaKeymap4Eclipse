@@ -4,7 +4,7 @@
 	<extension point="org.eclipse.ui.bindings">
 		<scheme
 			id="IntelliJIdeaKeymap4EclipseScheme"
-			name="IntelliJ IDEA JL">
+			name="IntelliJ IDEA">
 		</scheme>
 
 <!-- Mapping of IntelliJ IDEA DEFAULT KEYMAP: https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf -->
