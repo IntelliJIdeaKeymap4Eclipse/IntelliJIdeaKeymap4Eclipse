@@ -184,6 +184,70 @@
 		
 		<!-- #########################################-->
 		<!-- ***** START OF: 'Main Menu > Run' ***** -->
+		
+		<!-- 'Step Over' -->		
+		<key
+			sequence="F8"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.debug.ui.commands.StepOver">
+		</key>
+		
+		
+		<!-- 'Step Into' -->		
+		<key
+			sequence="F7"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.debug.ui.commands.StepInto">
+		</key>
+		
+		<!-- TODO what does Smart step into / Step out do? -->
+		
+		<!-- 'Run to cursor' -->		
+		<key
+			sequence="Alt+F9"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.debug.ui.commands.RunToLine">
+		</key>
+		
+		<!-- 'Evaluate expression' -->		
+		<key
+			sequence="Alt+F8"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.jdt.debug.ui.commands.Inspect">
+		</key>
+		
+		<!-- 'Resume program' -->		
+		<key
+			sequence="F9"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.debug.ui.commands.Resume">
+		</key>
+		
+		<!-- 'Toggle breakpoint' -->		
+		<key
+			sequence="Ctrl+F8"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.debug.ui.commands.ToggleBreakpoint">
+		</key>
+		
+		<!-- 'View breakpoints' -->		
+		<key
+			sequence="Ctrl+Shift+F8"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.ui.views.showView">
+			<parameter
+                id="org.eclipse.ui.views.showView.viewId"
+                value="org.eclipse.debug.ui.BreakpointView">
+          </parameter>
+		</key>
+		
 		<!-- ##### END OF: 'Main Menu > Run' ##### -->
 
 
