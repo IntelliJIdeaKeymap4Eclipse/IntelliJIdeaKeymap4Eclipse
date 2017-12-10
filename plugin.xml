@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+	<extension point="org.eclipse.ui.bindings">
+		<scheme
+			id="IntelliJIdeaKeymap4EclipseScheme"
+			name="IntelliJ IDEA">
+		</scheme>
+
+<!-- Mapping of IntelliJ IDEA DEFAULT KEYMAP: https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf -->
+
+<!-- *** START OF: 'General' *** -->
+
+		<!-- ***** START OF: 'Tool Windows' ***** -->
+
+		<!-- TODO Known Bug: Tool Windows: Pressing the same sequence again should close / reopen the view -->
+
+
+
+
+		<!-- TODO Tool Window:'Messages' Has Eclipse a 'Messages' view? <key sequence="Alt+0 ... -->
+
+
+
+
+		<!-- Tool Window:'Project' -->
+		<key
+			sequence="Alt+1"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.ui.views.showView">
+			<parameter
+				id="org.eclipse.ui.views.showView.viewId"
+				value="org.eclipse.ui.navigator.ProjectExplorer">
+			</parameter>
+		</key>
+
+
+
+
+		<!-- TODO Tool Window:'Favorites' Has Eclipse a 'Favorites' view? <key sequence="Alt+2 ... -->
+
+
+
+
+		<!-- Tool Window:'Find' -->
+		<key
+			sequence="Alt+3"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.ui.views.showView">
+			<parameter
+				id="org.eclipse.ui.views.showView.viewId"
+				value="org.eclipse.search.ui.views.SearchView">
+			</parameter>
+		</key>
+
+
+		<!-- Tool Window:'Run' -->
+		<!-- TODO Has Eclipse a Run View - best match is probably Console? -->
+		<key
+			sequence="Alt+4"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.ui.views.showView">
+			<parameter
+				id="org.eclipse.ui.views.showView.viewId"
+				value="org.eclipse.ui.console.ConsoleView">
+			</parameter>
+		</key>
+
+
+		<!-- Tool Window:'Debug' -->
+		<!-- TODO Has Eclipse a Debug View - best thing would be to create a new view which contains (as subviews) Debug Stacktrace + Variables + Breakpoints 
+			view? -->
+		<key
+			sequence="Alt+5"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.ui.views.showView">
+			<parameter
+				id="org.eclipse.ui.views.showView.viewId"
+				value="org.eclipse.debug.ui.DebugView">
+			</parameter>
+		</key>
+
+
+		<!-- Tool Window:'TODO' -->
+		<key
+			sequence="Alt+6"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.ui.views.showView">
+			<parameter
+				id="org.eclipse.ui.views.showView.viewId"
+				value="org.eclipse.ui.views.TaskList">
+			</parameter>
+		</key>
+
+
+		<!-- Tool Window:'Structure' -->
+		<key
+			sequence="Alt+7"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.ui.views.showView">
+			<parameter
+				id="org.eclipse.ui.views.showView.viewId"
+				value="org.eclipse.ui.views.ContentOutline">
+			</parameter>
+		</key>
+
+
+		<!-- Tool Window:'Version Control' -->
+		<!-- TODO SynchronizeView oder org.eclipse.egit.ui.StagingView -->
+		<key
+			sequence="Alt+9"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.ui.views.showView">
+			<parameter
+				id="org.eclipse.ui.views.showView.viewId"
+				value="org.eclipse.team.sync.views.SynchronizeView">
+			</parameter>
+		</key>
+		
+		<!-- ***** END OF: 'Tool Windows' ***** -->
+		 
+		<!-- General: 'Save all' -->		
+		<key
+			sequence="Ctrl+S"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.ui.file.saveAll">
+		</key>
+		
+		<!-- TODO What exactly does Synchronize do? Is it just refresh? -->
+		<!-- General: 'Synchronize' -->		
+		<key
+			sequence="Ctrl+Alt+Y"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.ui.file.refresh">
+		</key>
+		
+
+		<!-- General: 'Toggle maximizing editor' -->	
+		<key
+			sequence="Ctrl+Shift+F12"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.ui.window.maximizePart">
+		</key>
+		
+		
+		<!-- TODO General: 'Inspect current file with current profile' Alt + Shift + I --> 
+		<!-- TODO General: 'Quick switch current scheme' Ctrl + BackQuote (`) --> 
+		
+		
+		<!-- General: 'Open Settings dialog' -->		
+		<key
+			sequence="Ctrl+Alt+S"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.ui.window.preferences">
+		</key>
+		
+		
+		<!-- General: 'Open Project Structure dialog' -->		
+		<key
+			sequence="Ctrl+Alt+Shift+S"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.ui.project.properties">
+		</key>
+		
+		
+		
+		<!-- General: 'Find Action' -->		
+		<key
+			sequence="Ctrl+Shift+A"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.ui.window.quickAccess">
+		</key>
+	</extension>
+
+</plugin>
