@@ -4,26 +4,288 @@
 	<extension point="org.eclipse.ui.bindings">
 		<scheme
 			id="IntelliJIdeaKeymap4EclipseScheme"
-			name="IntelliJ IDEA">
+			name="IntelliJ IDEA JL">
 		</scheme>
 
 <!-- Mapping of IntelliJ IDEA DEFAULT KEYMAP: https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf -->
 
-<!-- *** START OF: 'General' *** -->
+<!-- Keys are ordered as in IntelliJ IDEA: Settings > Keymap -->
 
+
+		<!-- #######################################-->
+		<!-- ***** START OF: 'Editor Actions' ***** -->
+		<!-- ##### END OF: 'Editor Actions' ##### -->
+
+
+
+
+
+
+
+
+
+
+
+
+		<!-- #########################################-->
+		<!-- ***** START OF: 'Main Menu > File' ***** -->
+		
+		<!-- 'Settings...', 'Open Settings dialog'  -->		
+		<key
+			sequence="Ctrl+Alt+S"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.ui.window.preferences">
+		</key>
+		
+		<!-- 'Project Structure...', 'Open Project Structure dialog' -->		
+		<key
+			sequence="Ctrl+Alt+Shift+S"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.ui.project.properties">
+		</key>
+		
+		<!-- 'Save all' -->		
+		<key
+			sequence="Ctrl+S"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.ui.file.saveAll">
+		</key>
+		
+		<!-- TODO What exactly does Synchronize do? Is it just refresh? -->
+		<!-- 'Synchronize' -->		
+		<key
+			sequence="Ctrl+Alt+Y"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.ui.file.refresh">
+		</key>
+		<!-- ##### END OF: 'Main Menu > File' ##### -->
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+		
+		
+		<!-- #########################################-->
+		<!-- ***** START OF: 'Main Menu > Edit' ***** -->
+		<!-- ##### END OF: 'Main Menu > Edit' ##### -->
+
+
+
+
+
+
+
+
+
+
+
+		<!-- #########################################-->
+		<!-- ***** START OF: 'Main Menu > View' ***** -->
+
+		<!-- TODO 'Quick switch current scheme' Ctrl + BackQuote (`) --> 
+		<!-- ##### END OF: 'Main Menu > View' ##### -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<!-- #########################################-->
+		<!-- ***** START OF: 'Main Menu > Navigate' ***** -->
+		<!-- ##### END OF: 'Main Menu > Navigate' ##### -->
+
+
+
+
+
+
+
+
+
+
+		
+		<!-- #########################################-->
+		<!-- ***** START OF: 'Main Menu > Code' ***** -->
+		<!-- ##### END OF: 'Main Menu > Code' ##### -->
+
+
+
+
+
+
+
+
+
+
+		
+		<!-- #########################################-->
+		<!-- ***** START OF: 'Main Menu > Analyze' ***** -->
+		<!-- ##### END OF: 'Main Menu > Analyze' ##### -->
+
+
+
+
+
+
+
+
+
+
+		
+		<!-- #########################################-->
+		<!-- ***** START OF: 'Main Menu > Refactor' ***** -->
+		<!-- ##### END OF: 'Main Menu > Refactor' ##### -->
+
+
+
+
+
+
+
+
+
+
+		
+		<!-- #########################################-->
+		<!-- ***** START OF: 'Main Menu > Build' ***** -->
+		<!-- ##### END OF: 'Main Menu > Build' ##### -->
+
+
+
+
+
+
+
+
+
+
+		
+		<!-- #########################################-->
+		<!-- ***** START OF: 'Main Menu > Run' ***** -->
+		<!-- ##### END OF: 'Main Menu > Run' ##### -->
+
+
+
+
+
+
+
+
+
+
+		
+		<!-- #########################################-->
+		<!-- ***** START OF: 'Main Menu > Tools' ***** -->
+		<!-- ##### END OF: 'Main Menu > Tools' ##### -->
+
+
+
+
+
+
+
+
+
+
+		
+		<!-- #########################################-->
+		<!-- ***** START OF: 'Main Menu > VCS' ***** -->
+		<!-- ##### END OF: 'Main Menu > VCS' ##### -->
+
+
+
+
+
+
+
+
+
+
+		
+		<!-- #########################################-->
+		<!-- ***** START OF: 'Main Menu > Window' ***** -->
+		
+		
+		<!-- START OF Main Menu > Window -> Active Tool Window -->
+		<!-- 'Hide All Tool Windows', 'Toggle maximizing editor' -->
+		<!-- Bug: https://github.com/IntelliJIdeaKeymap4Eclipse/IntelliJIdeaKeymap4Eclipse/issues/1 -->
+		<key
+			sequence="Ctrl+Shift+F12"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.ui.window.maximizePart">
+		</key>
+		<!-- ##### END OF: 'Main Menu > Window' ##### -->
+
+
+
+
+
+
+
+
+
+
+		
+		<!-- #########################################-->
+		<!-- ***** START OF: 'Main Menu > Help' ***** -->
+		
+		<!-- 'Find Action...' -->		
+		<key
+			sequence="Ctrl+Shift+A"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.ui.window.quickAccess">
+		</key>
+		<!-- ##### END OF: 'Main Menu > Help' ##### -->
+
+
+
+
+
+
+
+
+
+
+		
+		<!-- ###################################-->
 		<!-- ***** START OF: 'Tool Windows' ***** -->
+		
 
 		<!-- TODO Known Bug: Tool Windows: Pressing the same sequence again should close / reopen the view -->
 
 
 
 
-		<!-- TODO Tool Window:'Messages' Has Eclipse a 'Messages' view? <key sequence="Alt+0 ... -->
+		<!-- TODO Tool Windows:'Messages' Has Eclipse a 'Messages' view? <key sequence="Alt+0 ... -->
 
 
 
 
-		<!-- Tool Window:'Project' -->
+		<!-- Tool Windows:'Project' -->
 		<key
 			sequence="Alt+1"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
@@ -38,12 +300,12 @@
 
 
 
-		<!-- TODO Tool Window:'Favorites' Has Eclipse a 'Favorites' view? <key sequence="Alt+2 ... -->
+		<!-- TODO Tool Windows:'Favorites' Has Eclipse a 'Favorites' view? <key sequence="Alt+2 ... -->
 
 
 
 
-		<!-- Tool Window:'Find' -->
+		<!-- Tool Windows:'Find' -->
 		<key
 			sequence="Alt+3"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
@@ -56,7 +318,7 @@
 		</key>
 
 
-		<!-- Tool Window:'Run' -->
+		<!-- Tool Windows:'Run' -->
 		<!-- TODO Has Eclipse a Run View - best match is probably Console? -->
 		<key
 			sequence="Alt+4"
@@ -70,7 +332,7 @@
 		</key>
 
 
-		<!-- Tool Window:'Debug' -->
+		<!-- Tool Windows:'Debug' -->
 		<!-- TODO Has Eclipse a Debug View - best thing would be to create a new view which contains (as subviews) Debug Stacktrace + Variables + Breakpoints 
 			view? -->
 		<key
@@ -85,7 +347,7 @@
 		</key>
 
 
-		<!-- Tool Window:'TODO' -->
+		<!-- Tool Windows:'TODO' -->
 		<key
 			sequence="Alt+6"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
@@ -98,7 +360,7 @@
 		</key>
 
 
-		<!-- Tool Window:'Structure' -->
+		<!-- Tool Windows:'Structure' -->
 		<key
 			sequence="Alt+7"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
@@ -111,7 +373,7 @@
 		</key>
 
 
-		<!-- Tool Window:'Version Control' -->
+		<!-- Tool Windows:'Version Control' -->
 		<!-- TODO SynchronizeView oder org.eclipse.egit.ui.StagingView -->
 		<key
 			sequence="Alt+9"
@@ -123,66 +385,91 @@
 				value="org.eclipse.team.sync.views.SynchronizeView">
 			</parameter>
 		</key>
-		
-		<!-- ***** END OF: 'Tool Windows' ***** -->
-		 
-		<!-- General: 'Save all' -->		
 		<key
-			sequence="Ctrl+S"
+			sequence="Alt+Shift+9"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId="org.eclipse.ui.contexts.window"
-			commandId="org.eclipse.ui.file.saveAll">
+			commandId="org.eclipse.ui.views.showView">
+			<parameter
+				id="org.eclipse.ui.views.showView.viewId"
+				value="org.eclipse.team.sync.views.SynchronizeView">
+			</parameter>
 		</key>
 		
-		<!-- TODO What exactly does Synchronize do? Is it just refresh? -->
-		<!-- General: 'Synchronize' -->		
-		<key
-			sequence="Ctrl+Alt+Y"
-			schemeId="IntelliJIdeaKeymap4EclipseScheme"
-			contextId="org.eclipse.ui.contexts.window"
-			commandId="org.eclipse.ui.file.refresh">
-		</key>
-		
+		<!-- ##### END OF: 'Tool Windows' ##### -->
 
-		<!-- General: 'Toggle maximizing editor' -->	
-		<key
-			sequence="Ctrl+Shift+F12"
-			schemeId="IntelliJIdeaKeymap4EclipseScheme"
-			contextId="org.eclipse.ui.contexts.window"
-			commandId="org.eclipse.ui.window.maximizePart">
-		</key>
-		
-		
-		<!-- TODO General: 'Inspect current file with current profile' Alt + Shift + I --> 
-		<!-- TODO General: 'Quick switch current scheme' Ctrl + BackQuote (`) --> 
-		
-		
-		<!-- General: 'Open Settings dialog' -->		
-		<key
-			sequence="Ctrl+Alt+S"
-			schemeId="IntelliJIdeaKeymap4EclipseScheme"
-			contextId="org.eclipse.ui.contexts.window"
-			commandId="org.eclipse.ui.window.preferences">
-		</key>
-		
-		
-		<!-- General: 'Open Project Structure dialog' -->		
-		<key
-			sequence="Ctrl+Alt+Shift+S"
-			schemeId="IntelliJIdeaKeymap4EclipseScheme"
-			contextId="org.eclipse.ui.contexts.window"
-			commandId="org.eclipse.ui.project.properties">
-		</key>
+
+
+
+
+
+
+
+
+
 		
 		
 		
-		<!-- General: 'Find Action' -->		
-		<key
-			sequence="Ctrl+Shift+A"
-			schemeId="IntelliJIdeaKeymap4EclipseScheme"
-			contextId="org.eclipse.ui.contexts.window"
-			commandId="org.eclipse.ui.window.quickAccess">
-		</key>
+		
+		<!-- ###################################-->
+		<!-- ***** START OF: 'Version Control Systems' ***** -->
+		<!-- ##### END OF: 'Version Control Systems' ##### -->
+
+
+
+
+
+
+
+
+
+
+		
+		<!-- ###################################-->
+		<!-- ***** START OF: 'External Build Systems' ***** -->
+		<!-- ##### END OF: 'External Build Systems' ##### -->
+
+
+
+
+
+
+
+
+
+
+		
+		<!-- ###################################-->
+		<!-- ***** START OF: 'Debugger Actions' ***** -->
+		<!-- ##### END OF: 'Debugger Actions' ##### -->
+
+
+
+
+
+
+
+
+
+
+		
+		<!-- ###################################-->
+		<!-- ***** START OF: 'Other' ***** -->
+		
+		<!-- TODO 'Inspect current file with current profile' Alt + Shift + I --> 
+
+		<!-- ##### END OF: 'Other' ##### -->
+
+
+
+
+
+
+
+
+
+
+		
 	</extension>
 
 </plugin>
