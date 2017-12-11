@@ -1,7 +1,7 @@
 # IntelliJIdeaKeymap4Eclipse
 Provides IntelliJ IDEA key bindings for Eclipse
 
-The goal is to map all shortcuts from [IntelliJ IDEA ReferenceCard.pdf](https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf) until mid January.
+The goal is to map all shortcuts from [IntelliJ IDEA ReferenceCard.pdf](https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf) until mid January 2018.
 
 At the moment the focus is on Windows.
 
