@@ -200,6 +200,27 @@
 		
 		<!-- #########################################-->
 		<!-- ***** START OF: 'Main Menu > Code' ***** -->
+		
+		<!-- 'Surround with Live Template' -->		
+		<key
+			sequence="Ctrl+Alt+J"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.jdt.ui.edit.text.java.surround.with.quickMenu">
+		</key>
+		
+		<!-- 'Insert Live Template' -->		
+		<key
+			sequence="Ctrl+J"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.jdt.ui.specific_content_assist.command">
+			<parameter
+                id="org.eclipse.jdt.ui.specific_content_assist.category_id"
+                value="org.eclipse.jdt.ui.templateProposalCategory">
+          </parameter>
+		</key>
+		
 		<!-- ##### END OF: 'Main Menu > Code' ##### -->
 
 
