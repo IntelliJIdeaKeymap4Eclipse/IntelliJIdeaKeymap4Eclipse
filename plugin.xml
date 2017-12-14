@@ -749,6 +749,15 @@
 		
 		<!-- TODO 'Inspect current file with current profile' Alt + Shift + I --> 
 
+		<!-- 'Show Intention Actions' -->		
+		<key
+			sequence="ALT+Enter"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.jdt.ui.edit.text.java.correction.assist.proposals">
+		</key>
+
+
 		<!-- ##### END OF: 'Other' ##### -->
 
 
