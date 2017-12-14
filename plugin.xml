@@ -346,6 +346,57 @@
 		
 		<!-- #########################################-->
 		<!-- ***** START OF: 'Main Menu > Build' ***** -->
+		
+		<!-- Couldn't find Compile selected file, package or module -->
+		
+		<!-- 'Build Project' -->		
+		<key
+			sequence="Ctrl+F9"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.ui.project.buildProject">
+		</key>
+		
+		<!-- 'Run' -->
+		<key
+			sequence="Shift+F10"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.debug.ui.commands.RunLast">
+		</key>
+		
+		<!-- 'Debug' -->		
+		<key
+			sequence="Shift+F9"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.debug.ui.commands.DebugLast">
+		</key>
+		
+		<!-- 'Select configuration and run' -->		
+		<key
+			sequence="ALT+Shift+F10"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.debug.ui.commands.OpenRunConfigurations">
+		</key>
+		
+		<!-- 'Select configuration and debug' -->		
+		<key
+			sequence="ALT+Shift+F9"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.debug.ui.commands.OpenDebugConfigurations">
+		</key>
+		
+		<!-- 'Run context configuration from editor' -->		
+		<key
+			sequence="Ctrl+Shift+F10"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.debug.ui.commands.RunLast">
+		</key>
+		
 		<!-- ##### END OF: 'Main Menu > Build' ##### -->
 
 
