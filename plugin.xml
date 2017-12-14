@@ -14,6 +14,23 @@
 
 		<!-- #######################################-->
 		<!-- ***** START OF: 'Editor Actions' ***** -->
+		
+		<!-- 'Extend Selection' -->		
+		<key
+			sequence="Ctrl+W"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.jdt.ui.javaEditorScope"
+			commandId="org.eclipse.jdt.ui.edit.text.java.select.enclosing">
+		</key>
+		
+		<!-- 'Shrink Selection' -->		
+		<key
+			sequence="Ctrl+Shift+W"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.jdt.ui.javaEditorScope"
+			commandId="org.eclipse.jdt.ui.edit.text.java.select.last">
+		</key>
+		
 		<!-- ##### END OF: 'Editor Actions' ##### -->
 
 
@@ -168,6 +185,15 @@
 		<!-- ***** START OF: 'Main Menu > View' ***** -->
 
 		<!-- TODO 'Quick switch current scheme' Ctrl + BackQuote (`) --> 
+
+		<!-- 'Parameter Info' -->		
+		<key
+			sequence="CTRL+P"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.ui.edit.text.contentAssist.contextInformation">
+		</key>
+
 		<!-- ##### END OF: 'Main Menu > View' ##### -->
 
 
@@ -220,6 +246,22 @@
                 value="org.eclipse.jdt.ui.templateProposalCategory">
           </parameter>
 		</key>
+		
+		<!-- 'Generate code' -->		
+		<key
+			sequence="ALT+INSERT"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.jdt.ui.javaEditorScope"
+			commandId="org.eclipse.jdt.ui.edit.text.java.source.quickMenu">
+		</key>
+		
+		<!-- 'Code Completion Basic' -->		
+		<key
+			sequence="CTRL+SPACE"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.ui.edit.text.contentAssist.proposals">
+		</key> <!-- Command+SPACE+* is reserved on carbon, hardcode to CTRL -->
 		
 		<!-- ##### END OF: 'Main Menu > Code' ##### -->
 
@@ -756,6 +798,16 @@
 			contextId="org.eclipse.ui.contexts.window"
 			commandId="org.eclipse.jdt.ui.edit.text.java.correction.assist.proposals">
 		</key>
+		
+		<!-- 'New...' -->		
+		<key
+			sequence="ALT+INSERT"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.ui.file.newQuickMenu">
+		</key>
+		
+		
 
 
 		<!-- ##### END OF: 'Other' ##### -->
