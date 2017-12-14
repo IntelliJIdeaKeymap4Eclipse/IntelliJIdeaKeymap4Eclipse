@@ -156,9 +156,16 @@
 		</key>
 		
 		<!-- 'Find in path' -->		
-		<!-- 'Replace in path' -->		
 		<key
 			sequence="Ctrl+Shift+F"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.search.ui.openFileSearchPage">
+		</key>
+		
+		<!-- 'Replace in path' -->
+		<key
+			sequence="Ctrl+Shift+R"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId="org.eclipse.ui.contexts.window"
 			commandId="org.eclipse.search.ui.openFileSearchPage">
