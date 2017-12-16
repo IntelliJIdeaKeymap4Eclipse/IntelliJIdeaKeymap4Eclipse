@@ -222,6 +222,22 @@
 		<!-- #########################################-->
 		<!-- ***** START OF: 'Main Menu > Edit' ***** -->
 		
+		<!-- 'Undo' -->		
+		<key
+			sequence="M1+Z"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.ui.edit.undo">
+		</key>
+		
+		<!-- 'Redo' -->		
+		<key
+			sequence="M1+Shift+Z"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.ui.edit.redo">
+		</key>
+		
 		<!-- #########################################-->
 		<!-- ***** START OF: 'Main Menu > Edit > Find' ***** -->
 		
