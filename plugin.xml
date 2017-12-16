@@ -31,6 +31,26 @@
 			commandId="org.eclipse.jdt.ui.edit.text.java.select.last">
 		</key>
 		
+		<!-- TODO 'Complete Current Statement': Waiting on https://bugs.eclipse.org/bugs/show_bug.cgi?id=426743 -->
+		
+		
+		<!-- 'Duplicate current line' -->		
+		<key
+			sequence="Ctrl+D"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.ui.edit.text.copyLineDown">
+		</key>
+		
+		<!-- 'Delete line at caret' -->		
+		<key
+			sequence="Ctrl+Y"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.ui.edit.text.delete.line">
+		</key>
+		
+		
 		<!-- ##### END OF: 'Editor Actions' ##### -->
 
 
@@ -200,7 +220,34 @@
 			contextId="org.eclipse.ui.contexts.window"
 			commandId="org.eclipse.ui.edit.text.contentAssist.contextInformation">
 		</key>
-
+		
+		<!-- TODO 'Quick Documentation' 		
+		<key
+			sequence="Ctrl+Q"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="eclipse_command">
+		</key>-->
+		
+		<!-- 'External Documentation' -->		
+		<key
+			sequence="SHIFT+F1"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.jdt.ui.edit.text.java.open.external.javadoc">
+		</key>
+		
+		
+		
+		<!-- 'Show descriptions of error at caret' -->		
+		<!-- TODO Bug in Eclipse, it show the Eclipse help instead of the dialog. -->
+		<key
+			sequence="Ctrl+F1"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.jdt.ui.javaEditorScope"
+			commandId="org.eclipse.ui.edit.text.showInformation">
+		</key>
+		
 		<!-- ##### END OF: 'Main Menu > View' ##### -->
 
 
@@ -270,6 +317,92 @@
 			commandId="org.eclipse.ui.edit.text.contentAssist.proposals">
 		</key> <!-- Command+SPACE+* is reserved on carbon, hardcode to CTRL -->
 		
+		
+		<!-- 'Reformat code' -->		
+		<key
+			sequence="Ctrl+Alt+L"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.jdt.ui.edit.text.java.format">
+		</key>
+
+		<!-- 'Organize Imports' -->		
+		<key
+			sequence="Ctrl+Alt+O"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.jdt.ui.edit.text.java.organize.imports">
+		</key>
+		
+		<!-- 'Auto indent' -->		
+		<key
+			sequence="Ctrl+Alt+I"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.jdt.ui.edit.text.java.indent">
+		</key>
+		
+		<!-- 'Comment / uncomment with line comment ' -->		
+		<key
+			sequence="Ctrl+/"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.jdt.ui.edit.text.java.toggle.comment">
+		</key>
+		
+		<!-- 'Comment / uncomment with line comment ' -->		
+		<key
+			sequence="Ctrl+NUMPAD_DIVIDE"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.jdt.ui.edit.text.java.toggle.comment">
+		</key>
+		
+		<!-- 'Comment / uncomment with block comment ' -->
+		<!-- Bug: Eclipse has no Toggle Block Comment -->	
+		<key
+			sequence="Ctrl+Shift+/"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.jdt.ui.edit.text.java.add.block.comment">
+		</key>
+		
+		<!-- 'Comment / uncomment with block comment ' -->
+		<!-- Bug: Eclipse has no Toggle Block Comment -->		
+		<key
+			sequence="Ctrl+Shift+NUMPAD_DIVIDE"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.jdt.ui.edit.text.java.add.block.comment">
+		</key>
+		
+		<!-- 'Override methods' -->		
+		<key
+			sequence="Ctrl+O"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.jdt.ui.edit.text.java.override.methods">
+		</key>
+		
+		
+		<!-- 'Implement methods' -->		
+		<!-- INFO: Unfortunately Eclipse doesn't have a separate dialog for implement methods, it is mixed with override methods. -->
+		<key
+			sequence="Ctrl+I"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.jdt.ui.edit.text.java.override.methods">
+		</key>
+		
+		<!-- 'Surround with...' -->		
+		<key
+			sequence="Ctrl+Alt+T"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.jdt.ui.edit.text.java.surround.with.quickMenu">
+		</key>
+		
+		
 		<!-- ##### END OF: 'Main Menu > Code' ##### -->
 
 
@@ -321,9 +454,13 @@
 			commandId="org.eclipse.jdt.ui.edit.text.java.rename.element">
 		</key>
 		
-		
-		<!-- TODO 'Refactor This' -->	
-		
+		<!-- 'Refactor This' -->		
+		<key
+			sequence="Ctrl+Alt+Shift+T"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.jdt.ui.edit.text.java.refactor.quickMenu">
+		</key>
 		
 		<!-- 'Change Signature' -->		
 		<key
