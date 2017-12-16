@@ -51,6 +51,110 @@
 		</key>
 		
 		
+		<!-- 'Smart line join' -->		
+		<key
+			sequence="Ctrl+Shift+J"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.ui.edit.text.join.lines">
+		</key>
+		
+		<!-- 'Start new line' -->		
+		<key
+			sequence="Shift+ENTER"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.ui.edit.text.smartEnter">
+		</key>
+		
+		<!-- 'Start New Line Before Current' -->		
+		<key
+			sequence="Ctrl+Alt+ENTER"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.ui.edit.text.smartEnterInverse">
+		</key>
+		
+		<!-- TODO 'Select till code block end'		
+		<key
+			sequence="Ctrl+Shift+]"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="eclipse_command">
+		</key> -->
+		
+		<!-- 'Move Caret to Code Block Start' -->
+		<!-- Bug: Eclipse has no start or end block just matching bracket -->
+		<key
+			sequence="Ctrl+["
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.jdt.ui.edit.text.java.goto.matching.bracket">
+		</key>
+		
+		<!-- 'Move Caret to Code Block End' -->
+		<!-- Bug: Eclipse has no start or end block just matching bracket -->
+		<key
+			sequence="Ctrl+]"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.jdt.ui.edit.text.java.goto.matching.bracket">
+		</key>
+		
+		<!-- 'Delete to word end' -->		
+		<key
+			sequence="Ctrl+DELETE"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.ui.edit.text.deleteNextWord">
+		</key>
+		
+		<!-- 'Delete to word start' -->		
+		<key
+			sequence="Ctrl+BS"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.ui.edit.text.deletePreviousWord">
+		</key>
+		
+		<!-- 'Collapse code block' -->		
+		<key
+			sequence="M1+NUMPAD_SUBTRACT"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.ui.edit.text.folding.collapse">
+		</key>
+		<!-- 'Expand code block' -->		
+		<key
+			sequence="M1+NUMPAD_ADD"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.ui.edit.text.folding.expand">
+		</key>
+		
+		<!-- 'Collapse all' -->		
+		<key
+			sequence="M1+M2+NUMPAD_SUBTRACT"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.ui.edit.text.folding.collapse_all">
+		</key>
+		<!-- 'Expand all' -->		
+		<key
+			sequence="M1+M2+NUMPAD_ADD"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.ui.edit.text.folding.expand_all">
+		</key>
+		
+		<!-- TODO 'Close active editor tab'
+		<key
+			sequence="Ctrl+F4"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.ui.file.close"> Ctrl+F4 should also close Views
+		</key> -->
+
 		<!-- ##### END OF: 'Editor Actions' ##### -->
 
 
