@@ -155,6 +155,15 @@
 			commandId="org.eclipse.ui.file.close"> Ctrl+F4 should also close Views
 		</key> -->
 
+
+		<!-- 'Go to editor (from tool window)' -->		
+		<key
+			sequence="ESC"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.ui.window.activateEditor">
+		</key>
+
 		<!-- ##### END OF: 'Editor Actions' ##### -->
 
 
@@ -386,6 +395,133 @@
 
 		<!-- #########################################-->
 		<!-- ***** START OF: 'Main Menu > Navigate' ***** -->
+		
+		<!-- 'Go to class' -->		
+		<key
+			sequence="Ctrl+N"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.jdt.ui.navigate.open.type">
+		</key>
+		
+		<!-- 'Go to file' -->		
+		<key
+			sequence="Ctrl+Shift+N"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.ui.navigate.openResource">
+		</key>
+		
+		<!-- 'Go to line' -->		
+		<key
+			sequence="Ctrl+G"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.ui.edit.text.goto.line">
+		</key>
+		
+		<!-- 'Navigate forward ' -->		
+		<key
+			sequence="CTRL+ALT+ARROW_RIGHT"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.ui.navigate.forwardHistory">
+		</key>
+		
+		<!-- 'Navigate back ' -->		
+		<key
+			sequence="CTRL+ALT+ARROW_LEFT"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.ui.navigate.backwardHistory">
+		</key>
+		
+		<!-- 'Navigate to last edit location' -->		
+		<key
+			sequence="Ctrl+Shift+BS"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.ui.edit.text.gotoLastEditPosition">
+		</key>
+		
+		<!-- 'Select current file or symbol in any view' -->		
+		<key
+			sequence="ALT+F1"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.ui.navigate.showInQuickMenu">
+		</key>
+		
+		<!-- 'Go to declaration' -->		
+		<key
+			sequence="Ctrl+B"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.jdt.ui.edit.text.java.open.editor">
+		</key>
+		
+		<!-- 'Go to implementation' -->		
+		<key
+			sequence="Ctrl+Alt+B"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.jdt.ui.edit.text.java.open.implementation">
+		</key>
+		
+		<!-- TODO 'Go to type declaration' -->
+		
+		<!-- 'Go to super-method / super-class' -->		
+		<key
+			sequence="Ctrl+U"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.jdt.ui.edit.text.java.open.super.implementation">
+		</key>
+		
+		<!-- 'Go to previous method' -->		
+		<key
+			sequence="ALT+ARROW_UP"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.jdt.ui.edit.text.java.goto.previous.member">
+		</key>
+		
+		<!-- 'Go to next method' -->		
+		<key
+			sequence="ALT+ARROW_DOWN"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.jdt.ui.edit.text.java.goto.next.member">
+		</key>
+		
+		<!-- 'File structure popup' -->		
+		<key
+			sequence="Ctrl+F12"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.jdt.ui.edit.text.java.show.outline">
+		</key>
+		
+		<!-- 'Type hierarchy' -->		
+		<key
+			sequence="Ctrl+H"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.jdt.ui.edit.text.java.open.type.hierarchy">
+		</key>
+		
+		<!-- 'TODO Method hierarchy' -->		
+		
+		
+		<!-- 'Call hierarchy' -->
+		<key
+			sequence="Ctrl+Alt+H"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.jdt.ui.edit.text.java.open.call.hierarchy">
+		</key>
+		
+		
 		<!-- ##### END OF: 'Main Menu > Navigate' ##### -->
 
 
@@ -834,6 +970,26 @@
 			contextId="org.eclipse.ui.contexts.window"
 			commandId="org.eclipse.ui.window.maximizePart">
 		</key>
+		
+		
+		
+		<!-- 'Next Tab' -->		
+		<key
+			sequence="ALT+ARROW_RIGHT"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.ui.navigate.nextTab">
+		</key>
+		
+		<!-- 'Previous Tab' -->		
+		<key
+			sequence="ALT+ARROW_LEFT"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.ui.navigate.previousTab">
+		</key>
+		
+		
 		<!-- ##### END OF: 'Main Menu > Window' ##### -->
 
 
@@ -1084,7 +1240,15 @@
 
 
 
+		
+		
+		<!-- TODO 'Go back to previous tool window' -->		
 
+		
+		
+		
+		
+		<!-- TODO 'Next / previous highlighted error ' -->
 		
 	</extension>
 
