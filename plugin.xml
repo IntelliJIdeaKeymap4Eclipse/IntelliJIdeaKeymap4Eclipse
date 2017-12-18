@@ -521,12 +521,47 @@
 			commandId="org.eclipse.jdt.ui.edit.text.java.open.call.hierarchy">
 		</key>
 		
+		<!-- 'Jump to Navigation Bar' -->		
+		<key
+			sequence="ALT+HOME"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.jdt.ui.edit.text.java.gotoBreadcrumb">
+		</key>
+		
+		<!-- 'Add Bookmark' -->		
+		<key
+			sequence="F11"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.ui.edit.addBookmark">
+		</key>
+		
+		<!-- 'Toggle bookmark with mnemonic' -->		
+		<key
+			sequence="Ctrl+F11"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.ui.edit.addBookmark">
+		</key>
+		
+		<!-- 'Show bookmarks' -->		
+		<key
+			sequence="Shift+F11"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.ui.views.showView">
+			<parameter
+                id="org.eclipse.ui.views.showView.viewId"
+                value="org.eclipse.ui.views.BookmarkView">
+          </parameter>
+		</key>
 		
 		<!-- ##### END OF: 'Main Menu > Navigate' ##### -->
 
 
 
-
+		
 
 
 
