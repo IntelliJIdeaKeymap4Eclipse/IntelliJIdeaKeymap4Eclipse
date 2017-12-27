@@ -322,6 +322,26 @@
 		
 		<!-- TODO multiple cursors required? Select next occurrence, Select all occurrences, Unselect occurrence -->
 		
+		
+		<!-- 'Find usages' -->
+		<key
+			sequence="M3+F7"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.jdt.ui.edit.text.java.search.references.in.workspace">
+		</key>
+		
+		<!-- 'Show usages' -->
+		<key
+			sequence="M1+M3+F7"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.jdt.ui.edit.text.java.search.references.in.workspace">
+		</key>
+		
+		
+		
+		
 		<!-- ##### END OF: 'Main Menu > Edit > Find' ##### -->
 		
 		
