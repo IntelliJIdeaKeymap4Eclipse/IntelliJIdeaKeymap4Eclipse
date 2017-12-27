@@ -231,6 +231,14 @@
 		<!-- #########################################-->
 		<!-- ***** START OF: 'Main Menu > Edit' ***** -->
 		
+		<!-- 'Select All' -->
+		<key
+			sequence="M1+A"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.ui.edit.selectAll">
+		</key>
+		
 		<!-- 'Undo' -->		
 		<key
 			sequence="M1+Z"
