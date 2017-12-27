@@ -980,6 +980,31 @@
 		
 		<!-- #########################################-->
 		<!-- ***** START OF: 'Main Menu > VCS' ***** -->
+		
+		<!-- 'Commit project to VCS' -->
+		<key
+			sequence="M1+K"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.egit.ui.team.Commit">
+		</key>
+		
+		<!-- 'Update project from VCS' -->
+		<key
+			sequence="M1+T"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.egit.ui.team.Pull">
+		</key>
+		
+		<!-- 'Push commits' -->
+		<key
+			sequence="M1+Shift+K"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.egit.ui.team.Push">
+		</key>
+		
 		<!-- ##### END OF: 'Main Menu > VCS' ##### -->
 
 
