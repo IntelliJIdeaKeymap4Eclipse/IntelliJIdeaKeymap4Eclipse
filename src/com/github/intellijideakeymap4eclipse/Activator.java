@@ -1,4 +1,4 @@
-package intellijideakeymap4eclipse;
+package com.github.intellijideakeymap4eclipse;
 
 import org.eclipse.ui.plugin.AbstractUIPlugin;
 import org.osgi.framework.BundleContext;

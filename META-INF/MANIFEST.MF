@@ -3,7 +3,7 @@ Bundle-ManifestVersion: 2
 Bundle-Name: IntelliJIdeaKeymap4Eclipse
 Bundle-SymbolicName: IntelliJIdeaKeymap4Eclipse;singleton:=true
 Bundle-Version: 0.0.6.qualifier
-Bundle-Activator: intellijideakeymap4eclipse.Activator
+Bundle-Activator: com.github.intellijideakeymap4eclipse.Activator
 Require-Bundle: org.eclipse.ui,
  org.eclipse.core.runtime,
  org.eclipse.ui.editors
