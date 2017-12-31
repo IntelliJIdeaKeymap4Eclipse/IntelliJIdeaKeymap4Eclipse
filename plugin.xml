@@ -366,6 +366,14 @@
 			commandId="org.eclipse.jdt.ui.edit.text.java.search.references.in.workspace">
 		</key>
 		
+		<!-- 'Highlight usages in file' -->
+		<key
+			sequence="M1+M2+F7"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			commandId="org.eclipse.jdt.ui.edit.text.java.search.occurrences.in.file.quickMenu">
+		</key>
+		
 		<!-- 'Show usages' -->
 		<key
 			sequence="M1+M3+F7"
@@ -1043,7 +1051,7 @@
 		<key
 			sequence="Alt+F8"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
-			contextId="org.eclipse.debug.ui.debugging"
+			contextId="org.eclipse.ui.contexts.dialogAndWindow"
 			commandId="org.eclipse.jdt.debug.ui.commands.Inspect">
 		</key>
 		
