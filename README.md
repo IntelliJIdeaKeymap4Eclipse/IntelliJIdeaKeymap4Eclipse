@@ -1,6 +1,7 @@
 # IntelliJIdeaKeymap4Eclipse
 Provides IntelliJ IDEA key bindings for Eclipse
 
+![alt text](https://github.com/IntelliJIdeaKeymap4Eclipse/IntelliJIdeaKeymap4Eclipse/blob/master/images_github/Eclipse_Preferences_Keys-IntelliJ_IDEA.png "Logo IntelliJ IDEA keymap")
 
 ## Contributing :green_heart:
 We'd love your help -- Pull Requests welcome!
