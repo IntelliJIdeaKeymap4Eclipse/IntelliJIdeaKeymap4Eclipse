@@ -4,7 +4,8 @@
 	<extension point="org.eclipse.ui.bindings">
 		<scheme
 			id="IntelliJIdeaKeymap4EclipseScheme"
-			name="IntelliJ IDEA">
+			name="IntelliJ IDEA"
+			parentId="org.eclipse.ui.defaultAcceleratorConfiguration">
 		</scheme>
 
 <!-- Mapping of IntelliJ IDEA DEFAULT KEYMAP: https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf -->
@@ -36,7 +37,7 @@
 		
 		<!-- 'Duplicate current line' -->		
 		<key
-			sequence="Ctrl+D"
+			sequence="M1+D"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId="org.eclipse.ui.textEditorScope"
 			commandId="org.eclipse.ui.edit.text.copyLineDown">
@@ -47,6 +48,13 @@
 			sequence="Ctrl+Y"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId="org.eclipse.ui.textEditorScope"
+			commandId="org.eclipse.ui.edit.text.delete.line">
+		</key>
+		<key
+			sequence="M1+BS"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			platform="cocoa"
 			commandId="org.eclipse.ui.edit.text.delete.line">
 		</key>
 		
@@ -225,7 +233,7 @@
 		
 		<!-- 'Save all' -->		
 		<key
-			sequence="Ctrl+S"
+			sequence="M1+S"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId=""
 			commandId="org.eclipse.ui.file.saveAll">
@@ -567,10 +575,17 @@
 			commandId="org.eclipse.jdt.ui.edit.text.java.goto.previous.member">
 		</key>
 		<key
-			sequence="CTRL+ARROW_UP"
+			sequence="ALT+ARROW_UP"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId="org.eclipse.jdt.ui.javaEditorScope"
-			platform="carbon"
+			platform="cocoa"
+			commandId="">
+		</key>
+		<key
+			sequence="M4+ARROW_UP"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.jdt.ui.javaEditorScope"
+			platform="cocoa"
 			commandId="org.eclipse.jdt.ui.edit.text.java.goto.previous.member">
 		</key>
 		
@@ -582,10 +597,16 @@
 			commandId="org.eclipse.jdt.ui.edit.text.java.goto.next.member">
 		</key>
 		<key
-			sequence="CTRL+ARROW_DOWN"
+			sequence="ALT+ARROW_DOWN"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId="org.eclipse.jdt.ui.javaEditorScope"
-			platform="carbon"
+			platform="cocoa"
+			commandId="" />
+		<key
+			sequence="M4+ARROW_DOWN"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.jdt.ui.javaEditorScope"
+			platform="cocoa"
 			commandId="org.eclipse.jdt.ui.edit.text.java.goto.next.member">
 		</key>
 		
