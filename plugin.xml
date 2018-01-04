@@ -244,6 +244,13 @@
 			contextId=""
 			commandId="org.eclipse.ui.project.properties">
 		</key>
+		<key
+			sequence="M1+;"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="cocoa"
+			commandId="org.eclipse.ui.project.properties">
+		</key>
 		
 		<!-- 'Save all' -->		
 		<key
@@ -256,7 +263,7 @@
 		<!-- TODO What exactly does Synchronize do? Is it just refresh? -->
 		<!-- 'Synchronize' -->		
 		<key
-			sequence="Ctrl+Alt+Y"
+			sequence="M1+M3+Y"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId=""
 			commandId="org.eclipse.ui.file.refresh">
@@ -1191,7 +1198,7 @@
 		<!-- 'Hide All Tool Windows', 'Toggle maximizing editor' -->
 		<!-- Bug: https://github.com/IntelliJIdeaKeymap4Eclipse/IntelliJIdeaKeymap4Eclipse/issues/1 -->
 		<key
-			sequence="Ctrl+Shift+F12"
+			sequence="M1+M2+F12"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId=""
 			commandId="org.eclipse.ui.window.maximizePart">
@@ -1233,7 +1240,7 @@
 		
 		<!-- 'Find Action...' -->		
 		<key
-			sequence="Ctrl+Shift+A"
+			sequence="M1+M2+A"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId=""
 			commandId="org.eclipse.ui.window.quickAccess">
@@ -1275,6 +1282,17 @@
 				value="org.eclipse.ui.navigator.ProjectExplorer">
 			</parameter>
 		</key>
+		<key
+			sequence="M1+1"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="cocoa"
+			commandId="org.eclipse.ui.views.showView">
+			<parameter
+				id="org.eclipse.ui.views.showView.viewId"
+				value="org.eclipse.ui.navigator.ProjectExplorer">
+			</parameter>
+		</key>
 
 
 
@@ -1295,6 +1313,17 @@
 				value="org.eclipse.search.ui.views.SearchView">
 			</parameter>
 		</key>
+		<key
+			sequence="M1+3"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="cocoa"
+			commandId="org.eclipse.ui.views.showView">
+			<parameter
+				id="org.eclipse.ui.views.showView.viewId"
+				value="org.eclipse.search.ui.views.SearchView">
+			</parameter>
+		</key>
 
 
 		<!-- Tool Windows:'Run' -->
@@ -1303,6 +1332,17 @@
 			sequence="Alt+4"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId=""
+			commandId="org.eclipse.ui.views.showView">
+			<parameter
+				id="org.eclipse.ui.views.showView.viewId"
+				value="org.eclipse.ui.console.ConsoleView">
+			</parameter>
+		</key>
+		<key
+			sequence="M1+4"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="cocoa"
 			commandId="org.eclipse.ui.views.showView">
 			<parameter
 				id="org.eclipse.ui.views.showView.viewId"
@@ -1324,6 +1364,17 @@
 				value="org.eclipse.debug.ui.DebugView">
 			</parameter>
 		</key>
+		<key
+			sequence="M1+5"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="cocoa"
+			commandId="org.eclipse.ui.views.showView">
+			<parameter
+				id="org.eclipse.ui.views.showView.viewId"
+				value="org.eclipse.debug.ui.DebugView">
+			</parameter>
+		</key>
 
 
 		<!-- Tool Windows:'TODO' -->
@@ -1331,6 +1382,17 @@
 			sequence="Alt+6"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId=""
+			commandId="org.eclipse.ui.views.showView">
+			<parameter
+				id="org.eclipse.ui.views.showView.viewId"
+				value="org.eclipse.ui.views.TaskList">
+			</parameter>
+		</key>
+		<key
+			sequence="M1+6"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="cocoa"
 			commandId="org.eclipse.ui.views.showView">
 			<parameter
 				id="org.eclipse.ui.views.showView.viewId"
@@ -1350,6 +1412,17 @@
 				value="org.eclipse.ui.views.ContentOutline">
 			</parameter>
 		</key>
+		<key
+			sequence="M1+7"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="cocoa"
+			commandId="org.eclipse.ui.views.showView">
+			<parameter
+				id="org.eclipse.ui.views.showView.viewId"
+				value="org.eclipse.ui.views.ContentOutline">
+			</parameter>
+		</key>
 
 
 		<!-- Tool Windows:'Version Control' -->
@@ -1358,6 +1431,17 @@
 			sequence="Alt+9"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId=""
+			commandId="org.eclipse.ui.views.showView">
+			<parameter
+				id="org.eclipse.ui.views.showView.viewId"
+				value="org.eclipse.team.sync.views.SynchronizeView">
+			</parameter>
+		</key>
+		<key
+			sequence="M1+9"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="cocoa"
 			commandId="org.eclipse.ui.views.showView">
 			<parameter
 				id="org.eclipse.ui.views.showView.viewId"
