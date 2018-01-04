@@ -7,7 +7,6 @@ Bundle-Activator: com.github.intellijideakeymap4eclipse.Activator
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Bundle-Vendor: Vendor: IntelliJIdeaKeymap4Eclipse
 Bundle-ActivationPolicy: lazy
-Export-Package: com.github.intellijideakeymap4eclipse
 Require-Bundle: org.eclipse.ui,
  org.eclipse.core.runtime,
  org.eclipse.ui.editors
