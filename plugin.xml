@@ -23,12 +23,26 @@
 			contextId="org.eclipse.jdt.ui.javaEditorScope"
 			commandId="org.eclipse.jdt.ui.edit.text.java.select.enclosing">
 		</key>
+		<key
+			sequence="M3+ARROW_UP"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.jdt.ui.javaEditorScope"
+			platform="cocoa"
+			commandId="org.eclipse.jdt.ui.edit.text.java.select.enclosing">
+		</key>
 		
 		<!-- 'Shrink Selection' -->		
 		<key
 			sequence="Ctrl+Shift+W"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId="org.eclipse.jdt.ui.javaEditorScope"
+			commandId="org.eclipse.jdt.ui.edit.text.java.select.last">
+		</key>
+		<key
+			sequence="M3+ARROW_DOWN"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.jdt.ui.javaEditorScope"
+			platform="cocoa"
 			commandId="org.eclipse.jdt.ui.edit.text.java.select.last">
 		</key>
 		
@@ -415,7 +429,7 @@
 
 		<!-- 'Parameter Info' -->		
 		<key
-			sequence="CTRL+P"
+			sequence="M1+P"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId=""
 			commandId="org.eclipse.ui.edit.text.contentAssist.contextInformation">
@@ -883,7 +897,7 @@
 
 		<!-- 'Rename' -->		
 		<key
-			sequence="Shift+F6"
+			sequence="M2+F6"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId=""
 			commandId="org.eclipse.jdt.ui.edit.text.java.rename.element">
@@ -1430,6 +1444,20 @@
 			contextId=""
 			commandId="org.eclipse.jdt.ui.edit.text.java.correction.assist.proposals">
 		</key>
+		<key
+			sequence="ALT+Enter"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="cocoa"
+			commandId="">
+		</key>
+		<key
+			sequence="M1+Enter"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="cocoa"
+			commandId="org.eclipse.jdt.ui.edit.text.java.correction.assist.proposals">
+		</key>
 		
 		<!-- 'New...' -->		
 		<key
@@ -1439,10 +1467,17 @@
 			commandId="org.eclipse.ui.file.newQuickMenu">
 		</key>
 		<key
-			sequence="CTRL+N"
+			sequence="M1+N"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId=""
-			platform="carbon"
+			platform="cocoa"
+			commandId="org.eclipse.ui.file.newQuickMenu">
+		</key>
+		<key
+			sequence="M4+ENTER"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="cocoa"
 			commandId="org.eclipse.ui.file.newQuickMenu">
 		</key>
 		
