@@ -1064,7 +1064,7 @@
 		
 		<!-- 'Step Out' -->		
 		<key
-			sequence="SHIFT+F8"
+			sequence="M2+F8"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId="org.eclipse.debug.ui.debugging"
 			commandId="org.eclipse.debug.ui.commands.StepReturn">
@@ -1083,7 +1083,7 @@
 		
 		<!-- 'Run to cursor' -->		
 		<key
-			sequence="Alt+F9"
+			sequence="M3+F9"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId="org.eclipse.debug.ui.debugging"
 			commandId="org.eclipse.debug.ui.commands.RunToLine">
@@ -1091,7 +1091,7 @@
 		
 		<!-- 'Evaluate expression' -->		
 		<key
-			sequence="Alt+F8"
+			sequence="M3+F8"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId="org.eclipse.ui.contexts.dialogAndWindow"
 			commandId="org.eclipse.jdt.debug.ui.commands.Inspect">
@@ -1103,19 +1103,26 @@
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId="org.eclipse.debug.ui.debugging"
 			commandId="org.eclipse.debug.ui.commands.Resume">
+		</key>	
+		<key
+			sequence="M1+M3+R"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.debug.ui.debugging"
+			platform="cocoa"
+			commandId="org.eclipse.debug.ui.commands.Resume">
 		</key>
 		
 		<!-- 'Toggle breakpoint' -->		
 		<key
-			sequence="Ctrl+F8"
+			sequence="M1+F8"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
-			contextId="org.eclipse.debug.ui.debugging"
+			contextId="org.eclipse.ui.textEditorScope"
 			commandId="org.eclipse.debug.ui.commands.ToggleBreakpoint">
 		</key>
 		
 		<!-- 'View breakpoints' -->		
 		<key
-			sequence="Ctrl+Shift+F8"
+			sequence="M1+M2+F8"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId=""
 			commandId="org.eclipse.ui.views.showView">
