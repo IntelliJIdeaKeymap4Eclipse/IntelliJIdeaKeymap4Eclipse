@@ -945,10 +945,17 @@
 			contextId=""
 			commandId="org.eclipse.jdt.ui.edit.text.java.refactor.quickMenu">
 		</key>
+		<key
+			sequence="M4+T"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="cocoa"
+			commandId="org.eclipse.jdt.ui.edit.text.java.refactor.quickMenu">
+		</key>
 		
 		<!-- 'Change Signature' -->		
 		<key
-			sequence="Ctrl+F6"
+			sequence="M1+F6"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId=""
 			commandId="org.eclipse.jdt.ui.edit.text.java.modify.method.parameters">
@@ -956,7 +963,7 @@
 		
 		<!-- 'Inline' -->		
 		<key
-			sequence="Ctrl+Alt+N"
+			sequence="M1+M3+N"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId=""
 			commandId="org.eclipse.jdt.ui.edit.text.java.inline">
@@ -964,7 +971,7 @@
 		
 		<!-- 'Extract Method' -->		
 		<key
-			sequence="Ctrl+Alt+M"
+			sequence="M1+M3+M"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId=""
 			commandId="org.eclipse.jdt.ui.edit.text.java.extract.method">
@@ -972,7 +979,7 @@
 		
 		<!-- 'Extract Variable' -->		
 		<key
-			sequence="Ctrl+Alt+V"
+			sequence="M1+M3+V"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId=""
 			commandId="org.eclipse.jdt.ui.edit.text.java.extract.local.variable">
@@ -980,7 +987,7 @@
 		
 		<!-- 'Extract Field' -->		
 		<key
-			sequence="Ctrl+Alt+F"
+			sequence="M1+M3+F"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId=""
 			commandId="org.eclipse.jdt.ui.edit.text.java.promote.local.variable">
@@ -988,7 +995,7 @@
 		
 		<!-- 'Extract Constant' -->		
 		<key
-			sequence="Ctrl+Alt+C"
+			sequence="M1+M3+C"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId=""
 			commandId="org.eclipse.jdt.ui.edit.text.java.extract.constant">
@@ -996,7 +1003,7 @@
 		
 		<!-- 'Extract Parameter' -->		
 		<key
-			sequence="Ctrl+Alt+P"
+			sequence="M1+M3+P"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId=""
 			commandId="org.eclipse.jdt.ui.edit.text.java.introduce.parameter">
