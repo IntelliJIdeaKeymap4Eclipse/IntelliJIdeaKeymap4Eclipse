@@ -348,6 +348,20 @@
 			commandId="org.eclipse.ui.edit.findNext">
 		</key>
 		<key
+			sequence="F3"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			platform="cocoa"
+			commandId="">
+		</key>
+		<key
+			sequence="M1+G"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			platform="cocoa"
+			commandId="org.eclipse.ui.edit.findNext">
+		</key>
+		<key
 			sequence="Ctrl+L"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId="org.eclipse.ui.textEditorScope"
@@ -362,6 +376,20 @@
 			commandId="org.eclipse.ui.edit.findPrevious">
 		</key>
 		<key
+			sequence="Shift+F3"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			platform="cocoa"
+			commandId="">
+		</key>
+		<key
+			sequence="M1+M2+G"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			platform="cocoa"
+			commandId="org.eclipse.ui.edit.findPrevious">
+		</key>
+		<key
 			sequence="Ctrl+Shift+L"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId="org.eclipse.ui.textEditorScope"
@@ -370,7 +398,7 @@
 		
 		<!-- 'Find in path' -->		
 		<key
-			sequence="Ctrl+Shift+F"
+			sequence="M1+M2+F"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId=""
 			commandId="org.eclipse.search.ui.openFileSearchPage">
@@ -378,7 +406,7 @@
 		
 		<!-- 'Replace in path' -->
 		<key
-			sequence="Ctrl+Shift+R"
+			sequence="M1+M2+R"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId=""
 			commandId="org.eclipse.search.ui.openFileSearchPage">
