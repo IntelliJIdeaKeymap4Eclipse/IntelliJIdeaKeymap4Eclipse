@@ -75,15 +75,23 @@
 		
 		<!-- 'Smart line join' -->		
 		<key
-			sequence="Ctrl+Shift+J"
+			sequence="CTRL+M2+J"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId="org.eclipse.ui.textEditorScope"
 			commandId="org.eclipse.ui.edit.text.join.lines">
 		</key>
 		
+		<!-- 'Smart line split' -->		
+		<key
+			sequence="M1+ENTER"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			commandId="org.eclipse.ui.edit.text.smartEnter">
+		</key>
+		
 		<!-- 'Start new line' -->		
 		<key
-			sequence="Shift+ENTER"
+			sequence="M2+ENTER"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId="org.eclipse.ui.textEditorScope"
 			commandId="org.eclipse.ui.edit.text.smartEnter">
@@ -108,7 +116,7 @@
 		<!-- 'Move Caret to Code Block Start' -->
 		<!-- Bug: Eclipse has no start or end block just matching bracket -->
 		<key
-			sequence="Ctrl+["
+			sequence="M1+["
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId="org.eclipse.jdt.ui.javaEditorScope"
 			commandId="org.eclipse.jdt.ui.edit.text.java.goto.matching.bracket">
@@ -117,27 +125,27 @@
 		<!-- 'Move Caret to Code Block End' -->
 		<!-- Bug: Eclipse has no start or end block just matching bracket -->
 		<key
-			sequence="Ctrl+]"
+			sequence="M1+]"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId="org.eclipse.jdt.ui.javaEditorScope"
 			commandId="org.eclipse.jdt.ui.edit.text.java.goto.matching.bracket">
 		</key>
 		
-		<!-- 'Delete to word end' -->		
+		<!-- TODO check: should be defined in parent: 'Delete to word end' 
 		<key
 			sequence="Ctrl+DELETE"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId="org.eclipse.ui.textEditorScope"
 			commandId="org.eclipse.ui.edit.text.deleteNextWord">
-		</key>
+		</key>-->		
 		
-		<!-- 'Delete to word start' -->		
+		<!-- TODO check: should be defined in parent: 'Delete to word start' 	
 		<key
 			sequence="Ctrl+BS"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId="org.eclipse.ui.textEditorScope"
 			commandId="org.eclipse.ui.edit.text.deletePreviousWord">
-		</key>
+		</key>-->	
 		
 		<!-- 'Collapse code block' -->		
 		<key
@@ -164,6 +172,13 @@
 			sequence="M1+="
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId="org.eclipse.ui.textEditorScope"
+			commandId="org.eclipse.ui.edit.text.folding.expand">
+		</key>
+		<key
+			sequence="M1++"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			platform="cocoa"
 			commandId="org.eclipse.ui.edit.text.folding.expand">
 		</key>
 		
@@ -193,6 +208,13 @@
 			sequence="M1+M2+="
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId="org.eclipse.ui.textEditorScope"
+			commandId="org.eclipse.ui.edit.text.folding.expand_all">
+		</key>
+		<key
+			sequence="M1+M2++"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			platform="cocoa"
 			commandId="org.eclipse.ui.edit.text.folding.expand_all">
 		</key>
 		
@@ -328,6 +350,14 @@
 			sequence="Alt+F3"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId="org.eclipse.ui.textEditorScope"
+			platform="win32"
+			commandId="org.eclipse.ui.edit.findReplace">
+		</key>
+		<key
+			sequence="Alt+F3"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			platform="gtk"
 			commandId="org.eclipse.ui.edit.findReplace">
 		</key>
 		
@@ -482,10 +512,28 @@
                 value="org.eclipse.jdt.ui.JavadocView">
           </parameter>
 		</key>
+		<key
+			sequence="M4+J"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="cocoa"
+			commandId="">
+		</key>
+		<key
+			sequence="M4+J"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="cocoa"
+			commandId="org.eclipse.ui.views.showView">
+			<parameter
+                id="org.eclipse.ui.views.showView.viewId"
+                value="org.eclipse.jdt.ui.JavadocView">
+          </parameter>
+		</key>
 		
 		<!-- 'External Documentation' -->		
 		<key
-			sequence="SHIFT+F1"
+			sequence="M2+F1"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId=""
 			commandId="org.eclipse.jdt.ui.edit.text.java.open.external.javadoc">
@@ -496,7 +544,7 @@
 		<!-- 'Show descriptions of error at caret' -->		
 		<!-- TODO Bug in Eclipse, it shows the Eclipse help instead of the dialog. -->
 		<key
-			sequence="Ctrl+F1"
+			sequence="M1+F1"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId=""
 			commandId="org.eclipse.ui.edit.text.showInformation">
@@ -508,6 +556,28 @@
 			sequence="M1+SHIFT+I"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId=""
+			commandId="org.eclipse.ui.views.showView">
+			<parameter
+                id="org.eclipse.ui.views.showView.viewId"
+                value="org.eclipse.jdt.ui.SourceView">
+          </parameter>
+		</key>
+		<key
+			sequence="M3+SPACE"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="cocoa"
+			commandId="org.eclipse.ui.views.showView">
+			<parameter
+                id="org.eclipse.ui.views.showView.viewId"
+                value="org.eclipse.jdt.ui.SourceView">
+          </parameter>
+		</key>
+		<key
+			sequence="M1+Y"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="cocoa"
 			commandId="org.eclipse.ui.views.showView">
 			<parameter
                 id="org.eclipse.ui.views.showView.viewId"
@@ -541,12 +611,26 @@
 			contextId="org.eclipse.ui.contexts.window"
 			commandId="org.eclipse.jdt.ui.navigate.open.type">
 		</key>
+		<key
+			sequence="M1+O"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			platform="cocoa"
+			commandId="org.eclipse.jdt.ui.navigate.open.type">
+		</key>
 		
 		<!-- 'Go to file' -->		
 		<key
 			sequence="Ctrl+Shift+N"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId="org.eclipse.ui.contexts.window"
+			commandId="org.eclipse.ui.navigate.openResource">
+		</key>
+		<key
+			sequence="M1+M2+O"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			platform="cocoa"
 			commandId="org.eclipse.ui.navigate.openResource">
 		</key>
 		
@@ -557,10 +641,17 @@
 			contextId="org.eclipse.ui.textEditorScope"
 			commandId="org.eclipse.ui.edit.text.goto.line">
 		</key>
+		<key
+			sequence="M1+L"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			platform="cocoa"
+			commandId="org.eclipse.ui.edit.text.goto.line">
+		</key>
 		
 		<!-- 'Navigate forward ' -->		
 		<key
-			sequence="CTRL+ALT+ARROW_RIGHT"
+			sequence="M1+M3+ARROW_RIGHT"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId="org.eclipse.ui.textEditorScope"
 			commandId="org.eclipse.ui.navigate.forwardHistory">
@@ -568,7 +659,7 @@
 		
 		<!-- 'Navigate back ' -->		
 		<key
-			sequence="CTRL+ALT+ARROW_LEFT"
+			sequence="M1+M3+ARROW_LEFT"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId="org.eclipse.ui.textEditorScope"
 			commandId="org.eclipse.ui.navigate.backwardHistory">
@@ -576,7 +667,7 @@
 		
 		<!-- 'Navigate to last edit location' -->		
 		<key
-			sequence="Ctrl+Shift+BS"
+			sequence="M1+M2+BS"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId="org.eclipse.ui.contexts.window"
 			commandId="org.eclipse.ui.edit.text.gotoLastEditPosition">
@@ -584,7 +675,7 @@
 		
 		<!-- 'Select current file or symbol in any view' -->		
 		<key
-			sequence="ALT+F1"
+			sequence="M3+F1"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId=""
 			commandId="org.eclipse.ui.navigate.showInQuickMenu">
@@ -592,7 +683,7 @@
 		
 		<!-- 'Go to declaration' -->		
 		<key
-			sequence="Ctrl+B"
+			sequence="M1+B"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId=""
 			commandId="org.eclipse.jdt.ui.edit.text.java.open.editor">
@@ -600,7 +691,7 @@
 		
 		<!-- 'Go to implementation' -->		
 		<key
-			sequence="Ctrl+Alt+B"
+			sequence="M1+M3+B"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId=""
 			commandId="org.eclipse.jdt.ui.edit.text.java.open.implementation">
@@ -610,7 +701,7 @@
 		
 		<!-- 'Go to super-method / super-class' -->		
 		<key
-			sequence="Ctrl+U"
+			sequence="M1+U"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId=""
 			commandId="org.eclipse.jdt.ui.edit.text.java.open.super.implementation">
@@ -661,7 +752,7 @@
 		
 		<!-- 'File structure popup' -->		
 		<key
-			sequence="Ctrl+F12"
+			sequence="M1+F12"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId="org.eclipse.jdt.ui.javaEditorScope"
 			commandId="org.eclipse.jdt.ui.edit.text.java.show.outline">
@@ -669,7 +760,7 @@
 		
 		<!-- 'Type hierarchy' -->		
 		<key
-			sequence="Ctrl+H"
+			sequence="CTRL+H"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId=""
 			commandId="org.eclipse.jdt.ui.edit.text.java.open.type.hierarchy">
@@ -680,7 +771,7 @@
 		
 		<!-- 'Call hierarchy' -->
 		<key
-			sequence="Ctrl+Alt+H"
+			sequence="CTRL+M3+H"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId=""
 			commandId="org.eclipse.jdt.ui.edit.text.java.open.call.hierarchy">
@@ -688,7 +779,7 @@
 		
 		<!-- 'Jump to Navigation Bar' -->		
 		<key
-			sequence="ALT+HOME"
+			sequence="M3+HOME"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId="org.eclipse.jdt.ui.breadcrumbEditorScope"
 			commandId="org.eclipse.jdt.ui.edit.text.java.gotoBreadcrumb">
@@ -701,6 +792,13 @@
 			contextId=""
 			commandId="org.eclipse.ui.edit.addBookmark">
 		</key>
+		<key
+			sequence="F3"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="cocoa"
+			commandId="org.eclipse.ui.edit.addBookmark">
+		</key>
 		
 		<!-- 'Toggle bookmark with mnemonic' -->		
 		<key
@@ -709,12 +807,31 @@
 			contextId=""
 			commandId="org.eclipse.ui.edit.addBookmark">
 		</key>
+		<key
+			sequence="M3+F3"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="cocoa"
+			commandId="org.eclipse.ui.edit.addBookmark">
+		</key>
 		
 		<!-- 'Show bookmarks' -->		
 		<key
 			sequence="Shift+F11"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId=""
+			commandId="org.eclipse.ui.views.showView">
+			<parameter
+                id="org.eclipse.ui.views.showView.viewId"
+                value="org.eclipse.ui.views.BookmarkView">
+          </parameter>
+		</key>
+		
+		<key
+			sequence="M1+F3"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="cocoa"
 			commandId="org.eclipse.ui.views.showView">
 			<parameter
                 id="org.eclipse.ui.views.showView.viewId"
@@ -739,7 +856,7 @@
 		
 		<!-- 'Surround with Live Template' -->		
 		<key
-			sequence="Ctrl+Alt+J"
+			sequence="M1+M3+J"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId=""
 			commandId="org.eclipse.jdt.ui.edit.text.java.surround.with.quickMenu">
@@ -747,7 +864,7 @@
 		
 		<!-- 'Insert Live Template' -->		
 		<key
-			sequence="Ctrl+J"
+			sequence="M1+J"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId=""
 			commandId="org.eclipse.jdt.ui.specific_content_assist.command">
@@ -764,6 +881,20 @@
 			contextId="org.eclipse.jdt.ui.javaEditorScope"
 			commandId="org.eclipse.jdt.ui.edit.text.java.source.quickMenu">
 		</key>
+		<key
+			sequence="M1+N"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.jdt.ui.javaEditorScope"
+			platform="cocoa"
+			commandId="org.eclipse.jdt.ui.edit.text.java.source.quickMenu">
+		</key>
+		<key
+			sequence="M4+ENTER"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.jdt.ui.javaEditorScope"
+			platform="cocoa"
+			commandId="org.eclipse.jdt.ui.edit.text.java.source.quickMenu">
+		</key>
 		
 		<!-- 'Code Completion Basic' -->		
 		<key
@@ -771,12 +902,12 @@
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId="org.eclipse.ui.textEditorScope"
 			commandId="org.eclipse.ui.edit.text.contentAssist.proposals">
-		</key> <!-- Command+SPACE+* is reserved on carbon, hardcode to CTRL -->
+		</key>
 		
 		
 		<!-- 'Reformat code' -->		
 		<key
-			sequence="Ctrl+Alt+L"
+			sequence="M1+M3+L"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId=""
 			commandId="org.eclipse.jdt.ui.edit.text.java.format">
@@ -784,7 +915,7 @@
 
 		<!-- 'Organize Imports' -->		
 		<key
-			sequence="Ctrl+Alt+O"
+			sequence="CTRL+M3+O"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId=""
 			commandId="org.eclipse.jdt.ui.edit.text.java.organize.imports">
@@ -792,7 +923,7 @@
 		
 		<!-- 'Auto indent' -->		
 		<key
-			sequence="Ctrl+Alt+I"
+			sequence="CTRL+M3+I"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId=""
 			commandId="org.eclipse.jdt.ui.edit.text.java.indent">
@@ -800,13 +931,13 @@
 		
 		<!-- 'Comment / uncomment with line comment ' -->		
 		<key
-			sequence="Ctrl+/"
+			sequence="M1+/"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId="org.eclipse.jdt.ui.javaEditorScope"
 			commandId="org.eclipse.jdt.ui.edit.text.java.toggle.comment">
 		</key>
 		<key
-			sequence="Ctrl+/"
+			sequence="M1+/"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId="org.eclipse.jdt.ui.propertiesEditorScope"
 			commandId="org.eclipse.jdt.ui.edit.text.java.toggle.comment">
@@ -814,13 +945,13 @@
 		
 		<!-- 'Comment / uncomment with line comment ' -->		
 		<key
-			sequence="Ctrl+NUMPAD_DIVIDE"
+			sequence="M1+NUMPAD_DIVIDE"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId="org.eclipse.jdt.ui.javaEditorScope"
 			commandId="org.eclipse.jdt.ui.edit.text.java.toggle.comment">
 		</key>
 		<key
-			sequence="Ctrl+NUMPAD_DIVIDE"
+			sequence="M1+NUMPAD_DIVIDE"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId="org.eclipse.jdt.ui.propertiesEditorScope"
 			commandId="org.eclipse.jdt.ui.edit.text.java.toggle.comment">
@@ -834,6 +965,13 @@
 			contextId=""
 			commandId="org.eclipse.jdt.ui.edit.text.java.add.block.comment">
 		</key>
+		<key
+			sequence="M1+M3+/"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="cocoa"
+			commandId="org.eclipse.jdt.ui.edit.text.java.add.block.comment">
+		</key>
 		
 		<!-- 'Comment / uncomment with block comment ' -->
 		<!-- Bug: Eclipse has no Toggle Block Comment -->		
@@ -843,10 +981,17 @@
 			contextId=""
 			commandId="org.eclipse.jdt.ui.edit.text.java.add.block.comment">
 		</key>
+		<key
+			sequence="M1+M3+NUMPAD_DIVIDE"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="cocoa"
+			commandId="org.eclipse.jdt.ui.edit.text.java.add.block.comment">
+		</key>
 		
 		<!-- 'Override methods' -->		
 		<key
-			sequence="Ctrl+O"
+			sequence="CTRL+O"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId=""
 			commandId="org.eclipse.jdt.ui.edit.text.java.override.methods">
@@ -856,7 +1001,7 @@
 		<!-- 'Implement methods' -->		
 		<!-- INFO: Unfortunately Eclipse doesn't have a separate dialog for implement methods, it is mixed with override methods. -->
 		<key
-			sequence="Ctrl+I"
+			sequence="CTRL+I"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId=""
 			commandId="org.eclipse.jdt.ui.edit.text.java.override.methods">
@@ -864,7 +1009,7 @@
 		
 		<!-- 'Surround with...' -->		
 		<key
-			sequence="Ctrl+Alt+T"
+			sequence="M1+M3+T"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId=""
 			commandId="org.eclipse.jdt.ui.edit.text.java.surround.with.quickMenu">
@@ -1026,9 +1171,9 @@
 		
 		<!-- Couldn't find Compile selected file, package or module -->
 		
-		<!-- 'Build Project' -->		
+		<!-- 'Build Project', 'Make project' -->		
 		<key
-			sequence="Ctrl+F9"
+			sequence="M1+F9"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId=""
 			commandId="org.eclipse.ui.project.buildProject">
@@ -1041,12 +1186,26 @@
 			contextId=""
 			commandId="org.eclipse.debug.ui.commands.RunLast">
 		</key>
+		<key
+			sequence="M4+R"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="cocoa"
+			commandId="org.eclipse.debug.ui.commands.RunLast">
+		</key>
 		
 		<!-- 'Debug' -->		
 		<key
 			sequence="Shift+F9"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId=""
+			commandId="org.eclipse.debug.ui.commands.DebugLast">
+		</key>
+		<key
+			sequence="M4+D"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="cocoa"
 			commandId="org.eclipse.debug.ui.commands.DebugLast">
 		</key>
 		
@@ -1057,12 +1216,26 @@
 			contextId=""
 			commandId="org.eclipse.debug.ui.commands.OpenRunConfigurations">
 		</key>
+		<key
+			sequence="M4+M3+R"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="cocoa"
+			commandId="org.eclipse.debug.ui.commands.OpenRunConfigurations">
+		</key>
 		
 		<!-- 'Select configuration and debug' -->		
 		<key
 			sequence="ALT+Shift+F9"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId=""
+			commandId="org.eclipse.debug.ui.commands.OpenDebugConfigurations">
+		</key>
+		<key
+			sequence="M4+M3+D"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="cocoa"
 			commandId="org.eclipse.debug.ui.commands.OpenDebugConfigurations">
 		</key>
 		
@@ -1072,6 +1245,22 @@
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId=""
 			commandId="org.eclipse.debug.ui.commands.RunLast">
+		</key>
+		<key
+			sequence="M4+M2+R"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="cocoa"
+			commandId="org.eclipse.debug.ui.commands.RunLast">
+		</key>
+		
+		<!-- 'Debug context configuration from editor' -->		
+		<key
+			sequence="M4+M2+D"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="cocoa"
+			commandId="org.eclipse.debug.ui.commands.DebugLast">
 		</key>
 		
 		<!-- ##### END OF: 'Main Menu > Build' ##### -->
@@ -1214,7 +1403,7 @@
 		
 		<!-- 'Push commits' -->
 		<key
-			sequence="M1+Shift+K"
+			sequence="M1+M2+K"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId=""
 			commandId="org.eclipse.egit.ui.team.Push">
@@ -1255,12 +1444,26 @@
 			contextId=""
 			commandId="org.eclipse.ui.navigate.nextTab">
 		</key>
+		<key
+			sequence="M4+ARROW_RIGHT"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="cocoa"
+			commandId="org.eclipse.ui.navigate.nextTab">
+		</key>
 		
 		<!-- 'Previous Tab' -->		
 		<key
 			sequence="ALT+ARROW_LEFT"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId=""
+			commandId="org.eclipse.ui.navigate.previousTab">
+		</key>
+		<key
+			sequence="M4+ARROW_LEFT"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="cocoa"
 			commandId="org.eclipse.ui.navigate.previousTab">
 		</key>
 		
@@ -1565,23 +1768,9 @@
 
 		<!-- 'Show Intention Actions' -->		
 		<key
-			sequence="ALT+Enter"
+			sequence="M3+Enter"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId=""
-			commandId="org.eclipse.jdt.ui.edit.text.java.correction.assist.proposals">
-		</key>
-		<key
-			sequence="ALT+Enter"
-			schemeId="IntelliJIdeaKeymap4EclipseScheme"
-			contextId=""
-			platform="cocoa"
-			commandId="">
-		</key>
-		<key
-			sequence="M1+Enter"
-			schemeId="IntelliJIdeaKeymap4EclipseScheme"
-			contextId=""
-			platform="cocoa"
 			commandId="org.eclipse.jdt.ui.edit.text.java.correction.assist.proposals">
 		</key>
 		
