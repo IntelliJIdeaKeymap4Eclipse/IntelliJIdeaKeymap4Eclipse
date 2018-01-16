@@ -781,7 +781,7 @@
 		<key
 			sequence="M3+HOME"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
-			contextId="org.eclipse.jdt.ui.breadcrumbEditorScope"
+			contextId=""
 			commandId="org.eclipse.jdt.ui.edit.text.java.gotoBreadcrumb">
 		</key>
 		
@@ -1389,6 +1389,12 @@
 		<key
 			sequence="M1+K"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			commandId="">
+		</key><!-- clashes with parent: org.eclipse.ui.edit.findNext -->
+		<key
+			sequence="M1+K"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId=""
 			commandId="org.eclipse.egit.ui.team.Commit">
 		</key>
@@ -1401,7 +1407,14 @@
 			commandId="org.eclipse.egit.ui.team.Pull">
 		</key>
 		
+		<!-- Known bug: works only if the project is selected in (Project) Explorer. -->
 		<!-- 'Push commits' -->
+		<key
+			sequence="M1+M2+K"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			commandId="">
+		</key><!-- clashes with parent: org.eclipse.ui.edit.findPrevious -->
 		<key
 			sequence="M1+M2+K"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
