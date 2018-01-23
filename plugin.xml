@@ -445,6 +445,15 @@
 		<!-- TODO multiple cursors required? Select next occurrence, Select all occurrences, Unselect occurrence -->
 		
 		
+		<!-- TODO 'Find usages in file' -->
+		<!-- 'Find usages in file' -->
+		<key
+			sequence="M1+F7"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			commandId=""> <!-- clashes with 'Next View' -->
+		</key>
+		
 		<!-- 'Find usages' -->
 		<key
 			sequence="M3+F7"
@@ -457,7 +466,7 @@
 		<key
 			sequence="M1+M2+F7"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
-			contextId=""
+			contextId="org.eclipse.jdt.ui.javaEditorScope"
 			commandId="org.eclipse.jdt.ui.edit.text.java.search.occurrences.in.file.quickMenu">
 		</key>
 		
@@ -556,6 +565,18 @@
 			sequence="M1+SHIFT+I"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId=""
+			platform="win32,gtk"
+			commandId="org.eclipse.ui.views.showView">
+			<parameter
+                id="org.eclipse.ui.views.showView.viewId"
+                value="org.eclipse.jdt.ui.SourceView">
+          </parameter>
+		</key>
+		<key
+			sequence="M1+Y"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="cocoa"
 			commandId="org.eclipse.ui.views.showView">
 			<parameter
                 id="org.eclipse.ui.views.showView.viewId"
@@ -603,6 +624,22 @@
 
 		<!-- #########################################-->
 		<!-- ***** START OF: 'Main Menu > Navigate' ***** -->
+		
+				<!-- 'Next highlighted error ' -->
+		<key
+			sequence="F2"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			commandId="org.eclipse.ui.navigate.next">
+		</key>
+		
+		<!-- 'Previous highlighted error ' -->
+		<key
+			sequence="M2+F2"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			commandId="org.eclipse.ui.navigate.previous">
+		</key> 
 		
 		<!-- 'Go to class' -->		
 		<key
@@ -1830,8 +1867,7 @@
 		
 		
 		
-		<!-- TODO 'Next / previous highlighted error ' -->
-		
+
 	</extension>
 
 </plugin>
