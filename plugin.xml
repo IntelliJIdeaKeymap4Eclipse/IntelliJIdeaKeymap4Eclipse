@@ -629,7 +629,7 @@
 		<key
 			sequence="F2"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
-			contextId=""
+			contextId="org.eclipse.ui.textEditorScope"
 			commandId="org.eclipse.ui.navigate.next">
 		</key>
 		
@@ -637,7 +637,7 @@
 		<key
 			sequence="M2+F2"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
-			contextId=""
+			contextId="org.eclipse.ui.textEditorScope"
 			commandId="org.eclipse.ui.navigate.previous">
 		</key> 
 		
