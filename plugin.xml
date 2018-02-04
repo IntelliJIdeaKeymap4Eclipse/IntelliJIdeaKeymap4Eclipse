@@ -583,14 +583,6 @@
                 value="org.eclipse.jdt.ui.JavadocView">
           </parameter>
 		</key>
-		<!-- TODO is this kill switch M4+J necessary? -->
-		<key
-			sequence="M4+J"
-			schemeId="IntelliJIdeaKeymap4EclipseScheme"
-			contextId=""
-			platform="cocoa"
-			commandId="">
-		</key>
 		<key
 			sequence="M4+J"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
