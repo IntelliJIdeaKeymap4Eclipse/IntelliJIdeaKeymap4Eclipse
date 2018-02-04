@@ -21,6 +21,14 @@
 			sequence="Ctrl+W"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId="org.eclipse.jdt.ui.javaEditorScope"
+			platform="win32"
+			commandId="org.eclipse.jdt.ui.edit.text.java.select.enclosing">
+		</key>
+		<key
+			sequence="Ctrl+W"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.jdt.ui.javaEditorScope"
+			platform="gtk"
 			commandId="org.eclipse.jdt.ui.edit.text.java.select.enclosing">
 		</key>
 		<key
@@ -36,6 +44,14 @@
 			sequence="Ctrl+Shift+W"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId="org.eclipse.jdt.ui.javaEditorScope"
+			platform="win32"
+			commandId="org.eclipse.jdt.ui.edit.text.java.select.last">
+		</key>
+		<key
+			sequence="Ctrl+Shift+W"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.jdt.ui.javaEditorScope"
+			platform="gtk"
 			commandId="org.eclipse.jdt.ui.edit.text.java.select.last">
 		</key>
 		<key
@@ -62,6 +78,14 @@
 			sequence="Ctrl+Y"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId="org.eclipse.ui.textEditorScope"
+			platform="win32"
+			commandId="org.eclipse.ui.edit.text.delete.line">
+		</key>
+		<key
+			sequence="Ctrl+Y"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			platform="gtk"
 			commandId="org.eclipse.ui.edit.text.delete.line">
 		</key>
 		<key
@@ -264,6 +288,14 @@
 			sequence="Ctrl+Alt+Shift+S"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId=""
+			platform="win32"
+			commandId="org.eclipse.ui.project.properties">
+		</key>
+		<key
+			sequence="Ctrl+Alt+Shift+S"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="gtk"
 			commandId="org.eclipse.ui.project.properties">
 		</key>
 		<key
@@ -375,14 +407,29 @@
 			sequence="F3"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId="org.eclipse.ui.textEditorScope"
+			platform="win32"
 			commandId="org.eclipse.ui.edit.findNext">
 		</key>
 		<key
 			sequence="F3"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId="org.eclipse.ui.textEditorScope"
-			platform="cocoa"
-			commandId="">
+			platform="gtk"
+			commandId="org.eclipse.ui.edit.findNext">
+		</key>
+		<key
+			sequence="M1+L"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			platform="win32"
+			commandId="org.eclipse.ui.edit.findNext">
+		</key>
+		<key
+			sequence="M1+L"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			platform="gtk"
+			commandId="org.eclipse.ui.edit.findNext">
 		</key>
 		<key
 			sequence="M1+G"
@@ -391,38 +438,41 @@
 			platform="cocoa"
 			commandId="org.eclipse.ui.edit.findNext">
 		</key>
-		<key
-			sequence="Ctrl+L"
-			schemeId="IntelliJIdeaKeymap4EclipseScheme"
-			contextId="org.eclipse.ui.textEditorScope"
-			commandId="org.eclipse.ui.edit.findNext">
-		</key>
 		
 		<!-- 'Find Previous' -->		
 		<key
 			sequence="Shift+F3"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId="org.eclipse.ui.textEditorScope"
+			platform="win32"
 			commandId="org.eclipse.ui.edit.findPrevious">
 		</key>
 		<key
 			sequence="Shift+F3"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId="org.eclipse.ui.textEditorScope"
-			platform="cocoa"
-			commandId="">
+			platform="gtk"
+			commandId="org.eclipse.ui.edit.findPrevious">
+		</key>
+		<key
+			sequence="M1+M2+L"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			platform="win32"
+			commandId="org.eclipse.ui.edit.findPrevious">
+		</key>
+		<key
+			sequence="M1+M2+L"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			platform="gtk"
+			commandId="org.eclipse.ui.edit.findPrevious">
 		</key>
 		<key
 			sequence="M1+M2+G"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId="org.eclipse.ui.textEditorScope"
 			platform="cocoa"
-			commandId="org.eclipse.ui.edit.findPrevious">
-		</key>
-		<key
-			sequence="Ctrl+Shift+L"
-			schemeId="IntelliJIdeaKeymap4EclipseScheme"
-			contextId="org.eclipse.ui.textEditorScope"
 			commandId="org.eclipse.ui.edit.findPrevious">
 		</key>
 		
@@ -515,12 +565,25 @@
 			sequence="Ctrl+Q"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId=""
+			platform="win32"
 			commandId="org.eclipse.ui.views.showView">
 			<parameter
                 id="org.eclipse.ui.views.showView.viewId"
                 value="org.eclipse.jdt.ui.JavadocView">
           </parameter>
 		</key>
+		<key
+			sequence="Ctrl+Q"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="gtk"
+			commandId="org.eclipse.ui.views.showView">
+			<parameter
+                id="org.eclipse.ui.views.showView.viewId"
+                value="org.eclipse.jdt.ui.JavadocView">
+          </parameter>
+		</key>
+		<!-- TODO is this kill switch M4+J necessary? -->
 		<key
 			sequence="M4+J"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
@@ -565,7 +628,18 @@
 			sequence="M1+SHIFT+I"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId=""
-			platform="win32,gtk"
+			platform="win32"
+			commandId="org.eclipse.ui.views.showView">
+			<parameter
+                id="org.eclipse.ui.views.showView.viewId"
+                value="org.eclipse.jdt.ui.SourceView">
+          </parameter>
+		</key>
+		<key
+			sequence="M1+SHIFT+I"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="gtk"
 			commandId="org.eclipse.ui.views.showView">
 			<parameter
                 id="org.eclipse.ui.views.showView.viewId"
@@ -585,17 +659,6 @@
 		</key>
 		<key
 			sequence="M3+SPACE"
-			schemeId="IntelliJIdeaKeymap4EclipseScheme"
-			contextId=""
-			platform="cocoa"
-			commandId="org.eclipse.ui.views.showView">
-			<parameter
-                id="org.eclipse.ui.views.showView.viewId"
-                value="org.eclipse.jdt.ui.SourceView">
-          </parameter>
-		</key>
-		<key
-			sequence="M1+Y"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId=""
 			platform="cocoa"
@@ -646,6 +709,14 @@
 			sequence="Ctrl+N"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId="org.eclipse.ui.contexts.window"
+			platform="win32"
+			commandId="org.eclipse.jdt.ui.navigate.open.type">
+		</key>
+		<key
+			sequence="Ctrl+N"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			platform="gtk"
 			commandId="org.eclipse.jdt.ui.navigate.open.type">
 		</key>
 		<key
@@ -661,6 +732,14 @@
 			sequence="Ctrl+Shift+N"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId="org.eclipse.ui.contexts.window"
+			platform="win32"
+			commandId="org.eclipse.ui.navigate.openResource">
+		</key>
+		<key
+			sequence="Ctrl+Shift+N"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.contexts.window"
+			platform="gtk"
 			commandId="org.eclipse.ui.navigate.openResource">
 		</key>
 		<key
@@ -673,9 +752,17 @@
 		
 		<!-- 'Go to line' -->		
 		<key
-			sequence="Ctrl+G"
+			sequence="M1+G"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId="org.eclipse.ui.textEditorScope"
+			platform="win32"
+			commandId="org.eclipse.ui.edit.text.goto.line">
+		</key>
+		<key
+			sequence="M1+G"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			platform="gtk"
 			commandId="org.eclipse.ui.edit.text.goto.line">
 		</key>
 		<key
@@ -749,6 +836,14 @@
 			sequence="ALT+ARROW_UP"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId="org.eclipse.jdt.ui.javaEditorScope"
+			platform="win32"
+			commandId="org.eclipse.jdt.ui.edit.text.java.goto.previous.member">
+		</key>
+		<key
+			sequence="ALT+ARROW_UP"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.jdt.ui.javaEditorScope"
+			platform="gtk"
 			commandId="org.eclipse.jdt.ui.edit.text.java.goto.previous.member">
 		</key>
 		<key
@@ -771,6 +866,14 @@
 			sequence="ALT+ARROW_DOWN"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId="org.eclipse.jdt.ui.javaEditorScope"
+			platform="win32"
+			commandId="org.eclipse.jdt.ui.edit.text.java.goto.next.member">
+		</key>
+		<key
+			sequence="ALT+ARROW_DOWN"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.jdt.ui.javaEditorScope"
+			platform="gtk"
 			commandId="org.eclipse.jdt.ui.edit.text.java.goto.next.member">
 		</key>
 		<key
@@ -827,7 +930,24 @@
 			sequence="F11"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId=""
+			platform="win32"
 			commandId="org.eclipse.ui.edit.addBookmark">
+		</key>
+		<key
+			sequence="F11"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="gtk"
+			commandId="org.eclipse.ui.edit.addBookmark">
+		</key>
+		
+		<!-- 'Add Bookmark' kill 'Find Next' -->
+		<key
+			sequence="F3"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.ui.textEditorScope"
+			platform="cocoa"
+			commandId="">
 		</key>
 		<key
 			sequence="F3"
@@ -842,6 +962,14 @@
 			sequence="Ctrl+F11"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId=""
+			platform="win32"
+			commandId="org.eclipse.ui.edit.addBookmark">
+		</key>
+		<key
+			sequence="Ctrl+F11"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="gtk"
 			commandId="org.eclipse.ui.edit.addBookmark">
 		</key>
 		<key
@@ -857,13 +985,24 @@
 			sequence="Shift+F11"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId=""
+			platform="win32"
 			commandId="org.eclipse.ui.views.showView">
 			<parameter
                 id="org.eclipse.ui.views.showView.viewId"
                 value="org.eclipse.ui.views.BookmarkView">
           </parameter>
 		</key>
-		
+		<key
+			sequence="Shift+F11"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="gtk"
+			commandId="org.eclipse.ui.views.showView">
+			<parameter
+                id="org.eclipse.ui.views.showView.viewId"
+                value="org.eclipse.ui.views.BookmarkView">
+          </parameter>
+		</key>
 		<key
 			sequence="M1+F3"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
@@ -916,6 +1055,14 @@
 			sequence="ALT+INSERT"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId="org.eclipse.jdt.ui.javaEditorScope"
+			platform="win32"
+			commandId="org.eclipse.jdt.ui.edit.text.java.source.quickMenu">
+		</key>
+		<key
+			sequence="ALT+INSERT"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.jdt.ui.javaEditorScope"
+			platform="gtk"
 			commandId="org.eclipse.jdt.ui.edit.text.java.source.quickMenu">
 		</key>
 		<key
@@ -1125,6 +1272,14 @@
 			sequence="Ctrl+Alt+Shift+T"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId=""
+			platform="win32"
+			commandId="org.eclipse.jdt.ui.edit.text.java.refactor.quickMenu">
+		</key>
+		<key
+			sequence="Ctrl+Alt+Shift+T"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="gtk"
 			commandId="org.eclipse.jdt.ui.edit.text.java.refactor.quickMenu">
 		</key>
 		<key
@@ -1221,6 +1376,14 @@
 			sequence="Shift+F10"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId=""
+			platform="win32"
+			commandId="org.eclipse.debug.ui.commands.RunLast">
+		</key>
+		<key
+			sequence="Shift+F10"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="gtk"
 			commandId="org.eclipse.debug.ui.commands.RunLast">
 		</key>
 		<key
@@ -1236,6 +1399,14 @@
 			sequence="Shift+F9"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId=""
+			platform="win32"
+			commandId="org.eclipse.debug.ui.commands.DebugLast">
+		</key>
+		<key
+			sequence="Shift+F9"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="gtk"
 			commandId="org.eclipse.debug.ui.commands.DebugLast">
 		</key>
 		<key
@@ -1251,6 +1422,14 @@
 			sequence="ALT+Shift+F10"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId=""
+			platform="win32"
+			commandId="org.eclipse.debug.ui.commands.OpenRunConfigurations">
+		</key>
+		<key
+			sequence="ALT+Shift+F10"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="gtk"
 			commandId="org.eclipse.debug.ui.commands.OpenRunConfigurations">
 		</key>
 		<key
@@ -1266,6 +1445,14 @@
 			sequence="ALT+Shift+F9"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId=""
+			platform="win32"
+			commandId="org.eclipse.debug.ui.commands.OpenDebugConfigurations">
+		</key>
+		<key
+			sequence="ALT+Shift+F9"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="gtk"
 			commandId="org.eclipse.debug.ui.commands.OpenDebugConfigurations">
 		</key>
 		<key
@@ -1281,6 +1468,14 @@
 			sequence="Ctrl+Shift+F10"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId=""
+			platform="win32"
+			commandId="org.eclipse.debug.ui.commands.RunLast">
+		</key>
+		<key
+			sequence="Ctrl+Shift+F10"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="gtk"
 			commandId="org.eclipse.debug.ui.commands.RunLast">
 		</key>
 		<key
@@ -1492,6 +1687,14 @@
 			sequence="ALT+ARROW_RIGHT"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId=""
+			platform="win32"
+			commandId="org.eclipse.ui.navigate.nextTab">
+		</key>
+		<key
+			sequence="ALT+ARROW_RIGHT"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="gtk"
 			commandId="org.eclipse.ui.navigate.nextTab">
 		</key>
 		<key
@@ -1507,6 +1710,14 @@
 			sequence="ALT+ARROW_LEFT"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId=""
+			platform="win32"
+			commandId="org.eclipse.ui.navigate.previousTab">
+		</key>
+		<key
+			sequence="ALT+ARROW_LEFT"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="gtk"
 			commandId="org.eclipse.ui.navigate.previousTab">
 		</key>
 		<key
@@ -1571,6 +1782,18 @@
 			sequence="Alt+1"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId=""
+			platform="win32"
+			commandId="org.eclipse.ui.views.showView">
+			<parameter
+				id="org.eclipse.ui.views.showView.viewId"
+				value="org.eclipse.ui.navigator.ProjectExplorer">
+			</parameter>
+		</key>
+		<key
+			sequence="Alt+1"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="gtk"
 			commandId="org.eclipse.ui.views.showView">
 			<parameter
 				id="org.eclipse.ui.views.showView.viewId"
@@ -1602,6 +1825,18 @@
 			sequence="Alt+3"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId=""
+			platform="win32"
+			commandId="org.eclipse.ui.views.showView">
+			<parameter
+				id="org.eclipse.ui.views.showView.viewId"
+				value="org.eclipse.search.ui.views.SearchView">
+			</parameter>
+		</key>
+		<key
+			sequence="Alt+3"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="gtk"
 			commandId="org.eclipse.ui.views.showView">
 			<parameter
 				id="org.eclipse.ui.views.showView.viewId"
@@ -1627,6 +1862,18 @@
 			sequence="Alt+4"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId=""
+			platform="win32"
+			commandId="org.eclipse.ui.views.showView">
+			<parameter
+				id="org.eclipse.ui.views.showView.viewId"
+				value="org.eclipse.ui.console.ConsoleView">
+			</parameter>
+		</key>
+		<key
+			sequence="Alt+4"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="gtk"
 			commandId="org.eclipse.ui.views.showView">
 			<parameter
 				id="org.eclipse.ui.views.showView.viewId"
@@ -1653,6 +1900,18 @@
 			sequence="Alt+5"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId=""
+			platform="win32"
+			commandId="org.eclipse.ui.views.showView">
+			<parameter
+				id="org.eclipse.ui.views.showView.viewId"
+				value="org.eclipse.debug.ui.DebugView">
+			</parameter>
+		</key>
+		<key
+			sequence="Alt+5"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="gtk"
 			commandId="org.eclipse.ui.views.showView">
 			<parameter
 				id="org.eclipse.ui.views.showView.viewId"
@@ -1677,6 +1936,18 @@
 			sequence="Alt+6"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId=""
+			platform="win32"
+			commandId="org.eclipse.ui.views.showView">
+			<parameter
+				id="org.eclipse.ui.views.showView.viewId"
+				value="org.eclipse.ui.views.TaskList">
+			</parameter>
+		</key>
+		<key
+			sequence="Alt+6"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="gtk"
 			commandId="org.eclipse.ui.views.showView">
 			<parameter
 				id="org.eclipse.ui.views.showView.viewId"
@@ -1701,6 +1972,18 @@
 			sequence="Alt+7"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId=""
+			platform="win32"
+			commandId="org.eclipse.ui.views.showView">
+			<parameter
+				id="org.eclipse.ui.views.showView.viewId"
+				value="org.eclipse.ui.views.ContentOutline">
+			</parameter>
+		</key>
+		<key
+			sequence="Alt+7"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="gtk"
 			commandId="org.eclipse.ui.views.showView">
 			<parameter
 				id="org.eclipse.ui.views.showView.viewId"
@@ -1726,6 +2009,18 @@
 			sequence="Alt+9"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId=""
+			platform="win32"
+			commandId="org.eclipse.ui.views.showView">
+			<parameter
+				id="org.eclipse.ui.views.showView.viewId"
+				value="org.eclipse.team.sync.views.SynchronizeView">
+			</parameter>
+		</key>
+		<key
+			sequence="Alt+9"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="gtk"
 			commandId="org.eclipse.ui.views.showView">
 			<parameter
 				id="org.eclipse.ui.views.showView.viewId"
@@ -1747,6 +2042,18 @@
 			sequence="Alt+Shift+9"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId=""
+			platform="win32"
+			commandId="org.eclipse.ui.views.showView">
+			<parameter
+				id="org.eclipse.ui.views.showView.viewId"
+				value="org.eclipse.team.sync.views.SynchronizeView">
+			</parameter>
+		</key>
+		<key
+			sequence="Alt+Shift+9"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="gtk"
 			commandId="org.eclipse.ui.views.showView">
 			<parameter
 				id="org.eclipse.ui.views.showView.viewId"
@@ -1829,6 +2136,14 @@
 			sequence="ALT+INSERT"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId=""
+			platform="win32"
+			commandId="org.eclipse.ui.file.newQuickMenu">
+		</key>
+		<key
+			sequence="ALT+INSERT"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="gtk"
 			commandId="org.eclipse.ui.file.newQuickMenu">
 		</key>
 		<key
