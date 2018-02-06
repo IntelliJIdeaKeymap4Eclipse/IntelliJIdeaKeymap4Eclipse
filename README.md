@@ -19,7 +19,11 @@ We'd love your help -- Pull Requests welcome!
  * [Report issues](https://github.com/IntelliJIdeaKeymap4Eclipse/IntelliJIdeaKeymap4Eclipse/issues/new).
 
 ## Roadmap / Upcoming
+<<<<<<< HEAD
+ * Mid February 2018: Make plugin available in Eclipse Marketplace
+=======
  * Mid January 2018: Make plugin available in Eclipse Marketplace
+>>>>>>> refs/remotes/origin/master
  * DONE February 2018: Provide overview, which shortcuts work as expected, which not for Windows
  * DONE February 2018: Map all shortcuts from [IntelliJ IDEA ReferenceCard.pdf](https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf) for Windows
  * DONE Mid January 2018: Provide overview, which shortcuts work as expected, which not for macOS
