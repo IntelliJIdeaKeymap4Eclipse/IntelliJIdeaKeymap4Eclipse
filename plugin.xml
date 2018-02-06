@@ -242,21 +242,21 @@
 			commandId="org.eclipse.ui.edit.text.folding.expand_all">
 		</key>
 		
-		<!-- TODO 'Close active editor tab'
-		<key
-			sequence="Ctrl+F4"
-			schemeId="IntelliJIdeaKeymap4EclipseScheme"
-			contextId=""
-			commandId="org.eclipse.ui.file.close"> Ctrl+F4 should also close Views
-		</key> -->
-
-
 		<!-- 'Go to editor (from tool window)' -->		
 		<key
 			sequence="ESC"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId=""
 			commandId="org.eclipse.ui.window.activateEditor">
+		</key>
+		
+		
+		<!-- TODO 'Toggle Case' -->		
+		<key
+			sequence="M1+M2+T"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			commandId="">
 		</key>
 
 		<!-- ##### END OF: 'Editor Actions' ##### -->
@@ -606,7 +606,7 @@
 		
 		
 		<!-- 'Show descriptions of error at caret' -->		
-		<!-- TODO Bug in Eclipse, it shows the Eclipse help instead of the dialog. -->
+		<!-- TODO Bug in Eclipse (win32), it shows the Eclipse help instead of the dialog. -->
 		<key
 			sequence="M1+F1"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
@@ -1455,9 +1455,9 @@
 			commandId="org.eclipse.debug.ui.commands.OpenDebugConfigurations">
 		</key>
 		
-		<!-- 'Run context configuration from editor' -->		
+		<!-- TODO Bug doesn't work: 'Run context configuration from editor' -->		
 		<key
-			sequence="Ctrl+Shift+F10"
+			sequence="M1+M2+F10"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId=""
 			platform="win32"
