@@ -5,6 +5,8 @@ Experimental Update-Site: https://dl.bintray.com/intellijideakeymap4eclipse/upda
 
 ![alt text](https://github.com/IntelliJIdeaKeymap4Eclipse/IntelliJIdeaKeymap4Eclipse/blob/master/images_github/Eclipse_Preferences_Keys-IntelliJ_IDEA.png "Logo IntelliJ IDEA keymap")
 
+![alt text](https://github.com/IntelliJIdeaKeymap4Eclipse/IntelliJIdeaKeymap4Eclipse/blob/master/images_github/intellij_keymap_win_linux.png "Overview IntelliJ IDEA keymap windows / linux")
+
 ![alt text](https://github.com/IntelliJIdeaKeymap4Eclipse/IntelliJIdeaKeymap4Eclipse/blob/master/images_github/intellij_keymap_macos.png "Overview IntelliJ IDEA keymap macOS")
 
 ## Contributing :green_heart:
@@ -17,9 +19,9 @@ We'd love your help -- Pull Requests welcome!
  * [Report issues](https://github.com/IntelliJIdeaKeymap4Eclipse/IntelliJIdeaKeymap4Eclipse/issues/new).
 
 ## Roadmap / Upcoming
- * End of January 2018: Make plugin available in Eclipse Marketplace
- * End of January 2018: Provide overview, which shortcuts work as expected, which not for Windows
- * End of January 2018: Map all shortcuts from [IntelliJ IDEA ReferenceCard.pdf](https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf) for Windows
+ * Mid January 2018: Make plugin available in Eclipse Marketplace
+ * DONE February 2018: Provide overview, which shortcuts work as expected, which not for Windows
+ * DONE February 2018: Map all shortcuts from [IntelliJ IDEA ReferenceCard.pdf](https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf) for Windows
  * DONE Mid January 2018: Provide overview, which shortcuts work as expected, which not for macOS
  * DONE Mid January 2018: Provide Eclipse Update Site / Download URL --> https://dl.bintray.com/intellijideakeymap4eclipse/update-site-experimental
  * DONE 2018-01-06: Map all shortcuts from  [IntelliJ IDEA ReferenceCard.pdf](https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf) for macOS
