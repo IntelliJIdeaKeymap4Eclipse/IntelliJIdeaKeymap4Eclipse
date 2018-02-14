@@ -19,7 +19,7 @@ We'd love your help -- Pull Requests welcome!
  * [Report issues](https://github.com/IntelliJIdeaKeymap4Eclipse/IntelliJIdeaKeymap4Eclipse/issues/new).
 
 ## Roadmap / Upcoming
- * Mid February 2018: Make plugin available in Eclipse Marketplace
+ * DONE Mid February 2018: Make plugin available in Eclipse Marketplace --> https://marketplace.eclipse.org/content/intellij-idea-keymap-eclipse
  * DONE Mid February 2018: Provide official Eclipse Update Site URL / Download URL --> https://dl.bintray.com/intellijideakeymap4eclipse/update-site
  * DONE February 2018: Provide overview, which shortcuts work as expected, which not for Windows
  * DONE February 2018: Map all shortcuts from [IntelliJ IDEA ReferenceCard.pdf](https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf) for Windows
