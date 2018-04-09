@@ -16,16 +16,32 @@
 		<!-- #######################################-->
 		<!-- ***** START OF: 'Editor Actions' ***** -->
 		
-		<!-- 'Extend Selection' -->		
+		<!-- 'Extend Selection' -->
+		<!-- kill org.eclipse.ui.file.close -->
 		<key
-			sequence="Ctrl+W"
+			sequence="M1+W"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="win32"
+			commandId="">
+		</key>
+		<key
+			sequence="M1+W"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId="org.eclipse.jdt.ui.javaEditorScope"
 			platform="win32"
 			commandId="org.eclipse.jdt.ui.edit.text.java.select.enclosing">
 		</key>
+		<!-- kill org.eclipse.ui.file.close -->
 		<key
-			sequence="Ctrl+W"
+			sequence="M1+W"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="gtk"
+			commandId="">
+		</key>
+		<key
+			sequence="M1+W"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId="org.eclipse.jdt.ui.javaEditorScope"
 			platform="gtk"
@@ -38,17 +54,56 @@
 			platform="cocoa"
 			commandId="org.eclipse.jdt.ui.edit.text.java.select.enclosing">
 		</key>
-		
-		<!-- 'Shrink Selection' -->		
+		<!-- 'Extend Selection' for JavaScript -->
 		<key
-			sequence="Ctrl+Shift+W"
+			sequence="M1+W"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.wst.jsdt.ui.javaEditorScope"
+			platform="win32"
+			commandId="org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing">
+		</key>
+		<key
+			sequence="M1+W"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.wst.jsdt.ui.javaEditorScope"
+			platform="gtk"
+			commandId="org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing">
+		</key>
+		<key
+			sequence="M3+ARROW_UP"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.wst.jsdt.ui.javaEditorScope"
+			platform="cocoa"
+			commandId="org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing">
+		</key>
+
+		
+		<!-- 'Shrink Selection' -->
+		<!-- kill org.eclipse.ui.file.closeAll -->
+		<key
+			sequence="M1+M2+W"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="win32"
+			commandId="">
+		</key>
+		<key
+			sequence="M1+M2+W"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId="org.eclipse.jdt.ui.javaEditorScope"
 			platform="win32"
 			commandId="org.eclipse.jdt.ui.edit.text.java.select.last">
 		</key>
+		<!-- kill org.eclipse.ui.file.closeAll -->
 		<key
-			sequence="Ctrl+Shift+W"
+			sequence="M1+M2+W"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="gtk"
+			commandId="">
+		</key>
+		<key
+			sequence="M1+M2+W"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
 			contextId="org.eclipse.jdt.ui.javaEditorScope"
 			platform="gtk"
@@ -61,6 +116,29 @@
 			platform="cocoa"
 			commandId="org.eclipse.jdt.ui.edit.text.java.select.last">
 		</key>
+		<!-- 'Shrink Selection' for JavaScript -->
+		<key
+			sequence="M1+M2+W"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.wst.jsdt.ui.javaEditorScope"
+			platform="win32"
+			commandId="org.eclipse.wst.jsdt.ui.edit.text.java.select.last">
+		</key>
+		<key
+			sequence="M1+M2+W"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.wst.jsdt.ui.javaEditorScope"
+			platform="gtk"
+			commandId="org.eclipse.wst.jsdt.ui.edit.text.java.select.last">
+		</key>
+		<key
+			sequence="M3+ARROW_DOWN"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId="org.eclipse.wst.jsdt.ui.javaEditorScope"
+			platform="cocoa"
+			commandId="org.eclipse.wst.jsdt.ui.edit.text.java.select.last">
+		</key>
+		
 		
 		<!-- TODO 'Complete Current Statement': Waiting on https://bugs.eclipse.org/bugs/show_bug.cgi?id=426743 -->
 		
