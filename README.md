@@ -1,7 +1,9 @@
 # IntelliJIdeaKeymap4Eclipse
 Provides IntelliJ IDEA key bindings for Eclipse
 
-**Official Update Site URL: https://dl.bintray.com/intellijideakeymap4eclipse/update-site**
+**Install via Eclipse Marketplace: https://marketplace.eclipse.org/content/intellij-idea-keymap-eclipse**
+
+Or install via update site: https://dl.bintray.com/intellijideakeymap4eclipse/update-site
 
 ![alt text](https://github.com/IntelliJIdeaKeymap4Eclipse/IntelliJIdeaKeymap4Eclipse/blob/master/images_github/Eclipse_Preferences_Keys-IntelliJ_IDEA.png "Logo IntelliJ IDEA keymap")
 
