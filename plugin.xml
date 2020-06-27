@@ -1798,6 +1798,28 @@
 			commandId="org.eclipse.ui.navigate.previousTab">
 		</key>
 		
+		<key
+			sequence="Ctrl+Tab"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="win32"
+			commandId="org.eclipse.ui.window.nextEditor">
+		</key>
+		<key
+			sequence="Ctrl+Tab"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="gtk"
+			commandId="org.eclipse.ui.window.nextEditor">
+		</key>
+		<key
+			sequence="M4+Tab"
+			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			platform="cocoa"
+			commandId="org.eclipse.ui.window.nextEditor">
+		</key>
+		
 		
 		<!-- ##### END OF: 'Main Menu > Window' ##### -->
 
