@@ -7,6 +7,11 @@
 			name="IntelliJ IDEA"
 			parentId="org.eclipse.ui.defaultAcceleratorConfiguration">
 		</scheme>
+		<scheme
+			id="IntelliJIdeaKeymap4EclipseSchemeMacOsClassic"
+            name="IntelliJ IDEA Mac OS Classic"
+            parentId="IntelliJIdeaKeymap4EclipseScheme">
+      	</scheme>
 
 <!-- Mapping of IntelliJ IDEA DEFAULT KEYMAP: https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf -->
 
@@ -1247,6 +1252,12 @@
 		<key
 			sequence="CTRL+O"
 			schemeId="IntelliJIdeaKeymap4EclipseScheme"
+			contextId=""
+			commandId="org.eclipse.jdt.ui.edit.text.java.override.methods">
+		</key>
+		<key
+			sequence="M1+O"
+			schemeId="IntelliJIdeaKeymap4EclipseSchemeMacOsClassic"
 			contextId=""
 			commandId="org.eclipse.jdt.ui.edit.text.java.override.methods">
 		</key>
